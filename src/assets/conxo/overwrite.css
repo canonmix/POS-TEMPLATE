@@ -1,0 +1,9 @@
+/* USING THIS FILE FOR OVERWRITTEN TEMPLATE CSS ONLY */
+
+.rounded .sub-hidden .main-menu, .rounded .menu-sub-hidden .main-menu {
+    border-radius: 0px !important;
+}
+.rounded .app-menu {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}

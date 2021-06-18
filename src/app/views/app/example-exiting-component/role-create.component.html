@@ -1,0 +1,54 @@
+<section class="container-fluid">
+  <form [formGroup]="validationForm" (ngSubmit)="save()">
+    <mat-card>
+      <mat-card-title>{{'role.title.add'|translate}}</mat-card-title>
+      <mat-card-content>
+        <div class="row">
+          <div class="col-sm-6">
+            <mat-input-container class="full-width" dividerColor="primary">
+              <input type="text" matInput placeholder="{{'role.roleName'|translate}}" [(ngModel)]="model.roleName"
+                name="roleName" formControlName="roleName">
+              <mat-error class="error-message"
+                *ngIf="validationForm.get('roleName').hasError('required') && (validationForm.get('roleName').dirty || validationForm.get('roleName').touched)">
+                {{'validate.required'|translate}}</mat-error>
+            </mat-input-container>
+          </div>
+
+        </div>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-raised-button color="primary" class="btn-w-xs" type="submit" [disabled]="!validationForm.valid">
+          {{'btn.save'|translate}}
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+
+  <mat-card>
+    <mat-card-content>
+      <div class="row">
+        <div class="col-sm-6">
+          <mat-form-field class="full-width">
+            <mat-select placeholder="{{'role.menuGroupName'|translate}}" [(ngModel)]="filterMenuGroupOid"
+              name="menuGroup" >
+              <mat-option>{{'all'|translate}}</mat-option>
+              <mat-option *ngFor="let x of menuGroups" [value]="x.menuGroupOid">{{x.menuGroupName}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-card-content>
+
+    <mat-card-content
+      *ngFor="let x of menuGroups | filter:'menuGroupOid':filterMenuGroupOid:true; let groupIndex = index"
+      >
+      <mat-card-subtitle>{{x.menuGroupName}}</mat-card-subtitle>
+      <dd *ngFor="let y of x.menuFunctions;let funcIndex = index;" >
+        <mat-checkbox [id]="groupIndex +'-'+ funcIndex" [(ngModel)]="y.selected" >
+          {{y.menuFunctionName}}</mat-checkbox>
+      </dd>
+    </mat-card-content>
+
+  </mat-card>
+</section>
