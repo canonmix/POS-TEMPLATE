@@ -1,5 +1,4 @@
 /* USING THIS FILE FOR OVERWRITTEN TEMPLATE CSS ONLY */
-
 .rounded .sub-hidden .main-menu, .rounded .menu-sub-hidden .main-menu {
     border-radius: 0px !important;
 }
@@ -7,3 +6,18 @@
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
+
+/* indigo-pink.css */
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #00a656 !important;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+    background-color: #00a656 !important;
+}
+
+/* bestseller-addnew-popup.component.scss */
+#BestsellerAddnewPopup > mat-dialog-content > mat-card > mat-card-content > section > mat-radio-group > mat-radio-button.mat-radio-button.example-margin.mat-accent.mat-radio-checked > label > div.mat-radio-container > div.mat-radio-outer-circle {
+    border-color: #00a656 !important;
+}
+
+  

@@ -4,6 +4,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 @Component({
   selector: 'app-simple-popup',
   templateUrl: './bestseller-addnew-popup.component.html',
+  styleUrls: ['./bestseller-addnew-popup.component.scss'],
 })
 export class BestsellerAddnewPopupComponent {
   
