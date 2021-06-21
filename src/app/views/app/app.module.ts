@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app.routing';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { LayoutContainersModule } from 'src/app/containers/layout/layout.containers.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew-popup.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     bestsellerComponent,
     AppComponent,
     SimplePopupComponent,
+    BestsellerAddnewPopupComponent,
   ],
   imports: [
     CommonModule,
@@ -26,5 +28,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SharedModule,
     LayoutContainersModule,
   ],
+  entryComponents: [BestsellerAddnewPopupComponent],
 })
 export class AppModule {}
