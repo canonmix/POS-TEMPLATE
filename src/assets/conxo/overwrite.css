@@ -14,10 +14,42 @@
 .mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
     background-color: #00a656 !important;
 }
+.mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #00a656 !important;
+}
 
 /* bestseller-addnew-popup.component.scss */
+#BestsellerAddnewPopup {
+    width: 100%;
+    min-width: 390px;
+}
 #BestsellerAddnewPopup > mat-dialog-content > mat-card > mat-card-content > section > mat-radio-group > mat-radio-button.mat-radio-button.example-margin.mat-accent.mat-radio-checked > label > div.mat-radio-container > div.mat-radio-outer-circle {
     border-color: #00a656 !important;
 }
-
-  
+#BestsellerAddnewPopup > mat-dialog-content > mat-card {
+    box-shadow: none !important;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card > mat-card-content > section > mat-radio-group > mat-radio-button > label {
+    margin-right: 15px;
+    zoom: 150%;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field {
+    width: 100%;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-underline {
+    height: 0px;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > h3 {
+    line-height: 100%;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
+    border: 2px #757575 solid;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 22px;
+}
+#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
+    display: none;
+}
