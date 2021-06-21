@@ -11,16 +11,29 @@
 
 <div class="col-12">
     <div class="row icon-cards-row mb-4 sortable" ng-reflect-sortablejs="1,2,3,4">
-        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3">
-            <a href="javascript:;" class="card conx-bestsellercard">
-                <div class="card-body text-center conx-bestsellericon pb-0">
-                    <i class="glyph-icon simple-icon-plus"></i>
-                    <p class="card-text font-weight-semibold mt-5 mb-0">เพิ่มสินค้า</p>
-                </div>
-            </a>
+        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3 conx-divforcard">
+            <mat-card>
+                <mat-card-content>
+                  <button (click)="openDialog()" mat-raised-button>
+                    <div class="card-body text-center conx-bestsellericon pb-0">
+                        <i class="glyph-icon simple-icon-plus"></i>
+                        <p class="card-text font-weight-semibold mt-5 mb-0">เพิ่มสินค้า</p>
+                    </div>
+                  </button>
+                </mat-card-content>
+              </mat-card>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3">
-            
+        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3 conx-divforcard">
+            <mat-card>
+                <mat-card-content>
+                  <button (click)="openDialog()" mat-raised-button>
+                    <div class="card-body text-center conx-bestsellericon pb-0">
+                        <i class="glyph-icon simple-icon-plus"></i>
+                        <p class="card-text font-weight-semibold mt-5 mb-0">เพิ่มสินค้า</p>
+                    </div>
+                  </button>
+                </mat-card-content>
+              </mat-card>
         </div>
         <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3">
             
@@ -30,8 +43,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 <div ng-reflect-ng-class="[object Object]" class="app-menu">
