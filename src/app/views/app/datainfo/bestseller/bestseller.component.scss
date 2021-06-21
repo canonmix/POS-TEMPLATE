@@ -16,3 +16,9 @@
 .conx-divforcard > mat-card > mat-card-content > button > div {
   width: 100%;
 }
+.conx-divforcard > mat-card > mat-card-content > button {
+  box-shadow: none !important;
+}
+.conx-divforcard > mat-card {
+  border-radius: 10px;
+}
