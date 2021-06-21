@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
-import { SimplePopupComponent } from '../../simple-popup/simple-popup.component';
+import { BestsellerAddnewPopupComponent } from '../../simple-popup/bestseller-addnew-popup.component';
 
 @Component({
   selector: 'app-blank-page',
@@ -48,7 +48,7 @@ export class bestsellerComponent  {
 
 
   openDialog() {
-    const dialogRef = this.dialog.open(SimplePopupComponent);
+    const dialogRef = this.dialog.open(BestsellerAddnewPopupComponent);
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);

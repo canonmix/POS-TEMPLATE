@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-simple-popup',
   templateUrl: './bestseller-addnew-popup.component.html',
 })
-export class SimplePopupComponent {
+export class BestsellerAddnewPopupComponent {
   constructor() {
     
   }
