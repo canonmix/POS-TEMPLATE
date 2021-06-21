@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BlankPageComponent } from './blank-page/blank-page.component';
 import { BlankPageComponent2 } from './blank-page2/blank-page2.component';
+import { bestsellerComponent } from './datainfo/bestseller/template.component';
 import { SimplePopupComponent } from './simple-popup/simple-popup.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
@@ -13,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     BlankPageComponent,
     BlankPageComponent2,
+    bestsellerComponent,
     AppComponent,
     SimplePopupComponent,
   ],

@@ -1,11 +1,30 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-simple-popup',
   templateUrl: './bestseller-addnew-popup.component.html',
 })
 export class BestsellerAddnewPopupComponent {
-  constructor() {
-    
-  }
+  
+  public inputData: any;
+  public disabled: any;
+  public labelPosition: any;
+  public indeterminate: any;
+  public checked: any;
+
+  campaignOne: FormGroup;
+  campaignTwo: FormGroup;
+
+  toppings = new FormControl();
+
+  toppingList: string[] = [
+    'Extra cheese',
+    'Mushroom',
+    'Onion',
+    'Pepperoni',
+    'Sausage',
+    'Tomato',
+  ];
+  
 }
