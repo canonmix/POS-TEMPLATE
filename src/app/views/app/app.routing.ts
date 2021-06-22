@@ -53,6 +53,7 @@ const routes: Routes = [
       { path: 'datainfo/bestseller', component: bestsellerComponent },
       { path: 'datainfo/bestseller/product', component: bestsellerProductComponent },
       { path: 'datainfo/bestseller/product/added', component: bestsellerProductAddedComponent },
+      { path: 'datainfo/salereport', component: salereportComponent },
     ],
   },
 ];

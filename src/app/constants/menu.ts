@@ -93,7 +93,7 @@ const data: IMenuItem[] = [
       },
       {
         label: 'menu.th-datainfo-rpt-0',
-        to: `${adminRoot}/datainfo`,
+        to: `${adminRoot}/datainfo/salereport`,
         // roles: [UserRole.Editor],
       },
       {
