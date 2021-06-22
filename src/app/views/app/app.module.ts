@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew-popup.component';
 import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
+import { BestsellerEditPopupComponent } from './simple-popup/bestseller-editinfo-popup.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-a
     BestsellerAddnewPopupComponent,
     bestsellerProductComponent,
     bestsellerProductAddedComponent,
+    BestsellerEditPopupComponent,
   ],
   imports: [
     CommonModule,
@@ -36,6 +38,7 @@ import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-a
     BestsellerAddnewPopupComponent,
     bestsellerProductComponent,
     bestsellerProductAddedComponent,
+    BestsellerEditPopupComponent,
   ],
 })
 export class AppModule {}
