@@ -92,6 +92,11 @@ const data: IMenuItem[] = [
         ],
       },
       {
+        label: 'menu.th-datainfo-rpt-0',
+        to: `${adminRoot}/datainfo`,
+        // roles: [UserRole.Editor],
+      },
+      {
         label: 'menu.th-datainfo-ech-0',
         to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],

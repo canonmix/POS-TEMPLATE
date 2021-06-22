@@ -13,6 +13,7 @@ import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew
 import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
 import { BestsellerEditPopupComponent } from './simple-popup/bestseller-editinfo-popup.component';
+import { salereportComponent } from './datainfo/salereport/template.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { BestsellerEditPopupComponent } from './simple-popup/bestseller-editinfo
     bestsellerProductComponent,
     bestsellerProductAddedComponent,
     BestsellerEditPopupComponent,
+    salereportComponent,
   ],
   imports: [
     CommonModule,
@@ -39,6 +41,7 @@ import { BestsellerEditPopupComponent } from './simple-popup/bestseller-editinfo
     bestsellerProductComponent,
     bestsellerProductAddedComponent,
     BestsellerEditPopupComponent,
+    salereportComponent,
   ],
 })
 export class AppModule {}
