@@ -43,3 +43,16 @@
   background-repeat: no-repeat;
   background-position: 3.5em center;
 }
+.conx-headbreadcrumbbackbutt {
+  font-size: 32px;
+  color: #fff;
+  background-color: #8f8f8f;
+  border-radius: 50%;
+  padding: 9px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.conx-headbreadcrumbbackbutt:hover {
+  background-color: #00a656 !important;
+}
