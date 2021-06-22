@@ -49,14 +49,18 @@ export class bestsellerProductAddedComponent  {
 
 
   openDialog() {
-    const dialogRef = this.dialog.open(BestsellerAddnewPopupComponent);
+    const dialogRef = this.dialog.open(BestsellerAddnewPopupComponent, {
+      panelClass: 'conx-BestsellerAddnewPopup',
+    });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
   }
   openDialog2() {
-    const dialogRef = this.dialog.open(BestsellerEditPopupComponent);
+    const dialogRef = this.dialog.open(BestsellerEditPopupComponent, {
+      panelClass: 'conx-BestsellerEditPopup',
+    });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
