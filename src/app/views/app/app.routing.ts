@@ -51,6 +51,7 @@ const routes: Routes = [
       { path: 'datainfo/test', component: datainfoComponent2 },
       { path: 'datainfo/bestseller', component: bestsellerComponent },
       { path: 'datainfo/bestseller/product', component: bestsellerProductComponent },
+      { path: 'datainfo/bestseller/product/added', component: bestsellerProductAddedComponent },
     ],
   },
 ];
