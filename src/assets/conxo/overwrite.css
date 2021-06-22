@@ -1,4 +1,20 @@
 /* USING THIS FILE FOR OVERWRITTEN TEMPLATE CSS ONLY */
+
+/* bootstrap.min.css */
+input, button, select, optgroup, textarea {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300 !important;
+    border-radius: 10px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}  
+
+/* _vien.style.scss */
+body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
 .rounded .sub-hidden .main-menu, .rounded .menu-sub-hidden .main-menu {
     border-radius: 0px !important;
 }
@@ -6,8 +22,15 @@
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
+.rounded .btn.default {
+    border-radius: 0.5rem;
+}
 
 /* indigo-pink.css */
+.mat-body, .mat-body-1, .mat-typography {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
 .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
     border-color: #00a656 !important;
 }
@@ -16,6 +39,23 @@
 }
 .mat-form-field.mat-focused .mat-form-field-ripple {
     background-color: #00a656 !important;
+}
+.cdk-overlay-container {
+    z-index: 1080 !important;
+}
+.mat-h1, .mat-headline, .mat-typography h1 {
+    font: 400 24px/32px 'Kanit', sans-serif;
+}
+.mat-h3, .mat-subheading-2, .mat-typography h3 {
+    font: 400 16px/28px 'Kanit', sans-serif;
+}
+.mat-radio-button {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button, .mat-fab, .mat-mini-fab {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
 }
 
 /* bestseller-addnew-popup.component.scss */
@@ -52,4 +92,26 @@
 }
 #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
     display: none;
+}
+#BestsellerAddnewPopupButt {
+    margin-bottom: 20px;
+}
+#BestsellerAddnewPopupButt > mat-dialog-actions > button:nth-child(1) {
+    background-color: #aeaeae !important;
+    color: #fff;
+    width: 48%;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#BestsellerAddnewPopupButt > mat-dialog-actions > button:nth-child(2) {
+    background-color: #00a656 !important;
+    color: #fff;
+    width: 48%;
+    padding: 5px;
+    font-size: 22px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }

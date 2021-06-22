@@ -1,3 +1,18 @@
+.conx-bestsidebutt {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.conx-bestsidebutt > button {
+  width: 100% !important;
+  font-size: 18px;
+}
+.conx-bestsellercard {
+  border-radius: 15px !important;
+}
+.conx-bestsellericon > i:before {
+  color: #8f8f8f !important;
+  font-size: 52px;
+}
 .conx-divforcard > mat-card > mat-card-content > button {
   outline: none !important;
   background-color: #fff !important;
@@ -21,4 +36,7 @@
 }
 .conx-divforcard > mat-card {
   border-radius: 10px;
+}
+#conx-bestsidediv > div > div > div:nth-child(3) > button {
+  padding-left: 70px;
 }

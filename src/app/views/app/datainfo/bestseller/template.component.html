@@ -11,6 +11,8 @@
 
 <div class="col-12">
     <div class="row icon-cards-row mb-4 sortable" ng-reflect-sortablejs="1,2,3,4">
+
+      <!-- START LOOP -->
         <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3 conx-divforcard">
             <mat-card>
                 <mat-card-content>
@@ -23,70 +25,21 @@
                 </mat-card-content>
               </mat-card>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3 conx-divforcard">
-            <mat-card>
-                <mat-card-content>
-                  <button (click)="openDialog()" mat-raised-button>
-                    <div class="card-body text-center conx-bestsellericon pb-0">
-                        <i class="glyph-icon simple-icon-plus"></i>
-                        <p class="card-text font-weight-semibold mt-4 mb-0">เพิ่มสินค้า</p>
-                    </div>
-                  </button>
-                </mat-card-content>
-              </mat-card>
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3">
-            
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-4 col-3 mb-3">
-            
-        </div>
+      <!-- END LOOP -->
+
     </div>
 </div>
 
-<div class="col-12 m-b-20">
-  <mat-card>
-    <mat-card-content>
-      <h2 class="example-h2">Checkbox configuration</h2>
-
-      <section class="example-section">
-        <mat-checkbox class="example-margin" [(ngModel)]="checked"
-          >Checked</mat-checkbox
-        >
-        <mat-checkbox class="example-margin" [(ngModel)]="indeterminate"
-          >Indeterminate</mat-checkbox
-        >
-      </section>
-
-      <section class="example-section">
-        <label class="example-margin">Align:</label>
-        <mat-radio-group [(ngModel)]="labelPosition">
-          <mat-radio-button class="example-margin" value="after"
-            >After</mat-radio-button
-          >
-          <mat-radio-button class="example-margin" value="before"
-            >Before</mat-radio-button
-          >
-        </mat-radio-group>
-      </section>
-
-      <section class="example-section">
-        <mat-checkbox class="example-margin" [(ngModel)]="disabled"
-          >Disabled</mat-checkbox
-        >
-      </section>
-    </mat-card-content>
-  </mat-card>
-</div>
-
-
-<div ng-reflect-ng-class="[object Object]" class="app-menu">
+<div ng-reflect-ng-class="[object Object]" class="app-menu" id="conx-bestsidediv">
+  
 <div class="p-4 h-100">
 <div class="scroll">
 
 <div class="top-right-button-container text-zero conx-bestsidebutt"><button type="button" class="top-right-button btn btn-light default btn-lg">แก้ไขชื่อกลุ่มสินค้า</button></div>
 
 <div class="top-right-button-container text-zero conx-bestsidebutt"><button type="button" class="top-right-button btn btn-info default btn-lg">จัดการข้อมูล</button></div>
-<div class="top-right-button-container text-zero conx-bestsidebutt"><button type="button" class="top-right-button btn btn-primary default btn-lg">บันทึก</button></div></div></div><a href="javascript:;" class="app-menu-button d-inline-block d-xl-none"><i class="simple-icon-options"></i></a></div>
+<div class="top-right-button-container text-zero conx-bestsidebutt"><button type="button" class="top-right-button btn btn-primary default btn-lg">บันทึก</button></div></div></div><a href="javascript:;" class="app-menu-button d-inline-block d-xl-none"><i class="simple-icon-options"></i></a>
+
+</div>
 
 </div>
