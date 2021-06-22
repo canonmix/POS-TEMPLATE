@@ -6,6 +6,7 @@ import { BlankPageComponent2 } from './blank-page2/blank-page2.component';
 import { datainfoComponent } from './datainfo/datainfo.component';
 import { datainfoComponent2 } from './datainfo/test/template.component';
 import { bestsellerComponent } from './datainfo/bestseller/template.component';
+import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 
 // อิงจาก https://vien-docs.coloredstrategies.com/docs/codebase/routing ปรับ Router ของ Patch หลักที่นี่
 

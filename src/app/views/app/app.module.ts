@@ -10,6 +10,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { LayoutContainersModule } from 'src/app/containers/layout/layout.containers.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew-popup.component';
+import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew
     AppComponent,
     SimplePopupComponent,
     BestsellerAddnewPopupComponent,
+    bestsellerProductComponent,
   ],
   imports: [
     CommonModule,
@@ -28,6 +30,9 @@ import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew
     SharedModule,
     LayoutContainersModule,
   ],
-  entryComponents: [BestsellerAddnewPopupComponent],
+  entryComponents: [
+    BestsellerAddnewPopupComponent,
+    bestsellerProductComponent,
+  ],
 })
 export class AppModule {}
