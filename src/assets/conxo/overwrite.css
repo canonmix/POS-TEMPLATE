@@ -25,6 +25,10 @@ body {
 .rounded .btn.default {
     border-radius: 0.5rem;
 }
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
 
 /* indigo-pink.css */
 .mat-body, .mat-body-1, .mat-typography {
@@ -56,6 +60,17 @@ body {
 .mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button, .mat-fab, .mat-mini-fab {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
+}
+
+/* bestseller.component.scss */
+.conx-divforcard > mat-card > mat-card-content > button > span {
+  width: 100%;
+}
+.conx-divforcard > mat-card > mat-card-content > button > span > div {
+  width: 100%;
+}
+.conx-divforcard > mat-card > mat-card-content > button > div {
+  width: 100%;
 }
 
 /* bestseller-addnew-popup.component.scss */
