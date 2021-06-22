@@ -11,6 +11,7 @@ import { LayoutContainersModule } from 'src/app/containers/layout/layout.contain
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BestsellerAddnewPopupComponent } from './simple-popup/bestseller-addnew-popup.component';
 import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
+import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { bestsellerProductComponent } from './datainfo/bestseller-product/templa
     SimplePopupComponent,
     BestsellerAddnewPopupComponent,
     bestsellerProductComponent,
+    bestsellerProductAddedComponent,
   ],
   imports: [
     CommonModule,
@@ -33,6 +35,7 @@ import { bestsellerProductComponent } from './datainfo/bestseller-product/templa
   entryComponents: [
     BestsellerAddnewPopupComponent,
     bestsellerProductComponent,
+    bestsellerProductAddedComponent,
   ],
 })
 export class AppModule {}
