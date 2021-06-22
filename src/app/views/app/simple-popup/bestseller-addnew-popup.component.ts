@@ -10,7 +10,7 @@ export class BestsellerAddnewPopupComponent {
   
   public inputData: any;
   public disabled: any;
-  public labelPosition: any;
+  public AddnewPosition: any;
   public indeterminate: any;
   public checked: any;
 

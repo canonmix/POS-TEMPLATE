@@ -73,26 +73,87 @@ body {
     margin-right: 15px;
     zoom: 150%;
 }
-#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field {
-    width: 100%;
-}
-#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-underline {
-    height: 0px;
-}
-#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > h3 {
-    line-height: 100%;
-    margin-bottom: 0px;
-    font-size: 22px;
-}
-#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
-    border: 2px #757575 solid;
-    padding: 10px;
-    border-radius: 7px;
-    font-size: 22px;
-}
-#BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
-    display: none;
-}
+        /* ADD GROUP TAB CSS */
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field {
+            width: 100%;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-underline {
+            height: 0px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > h3 {
+            line-height: 100%;
+            margin-bottom: 0px;
+            font-size: 22px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
+            border: 2px #757575 solid;
+            padding: 10px;
+            border-radius: 7px;
+            font-size: 22px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
+            display: none;
+        }
+        /* ------------------ */
+
+        /* ADD PRODUCT TAB CSS */
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field {
+            width: 100%;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field > div > div.mat-form-field-underline {
+            height: 0px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > h3 {
+            line-height: 100%;
+            margin-bottom: 0px;
+            font-size: 22px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
+            border: 2px #757575 solid;
+            padding: 10px;
+            border-radius: 7px;
+            font-size: 22px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table {
+            width: 100%;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field {
+            width: 100%;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-flex > div > input {
+            border: 2px #757575 solid;
+            padding: 10px;
+            border-radius: 7px;
+            font-size: 22px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-flex > div > span > label {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-underline {
+            height: 0px;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(2) > button {
+            background-color: #00a656 !important;
+            color: #fff;
+            width: 100%;
+            padding: 5px;
+            margin-top: -10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 16px;
+            padding-left: 35px;
+            border-radius: 10px;
+            box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+            background-image: url('data:image/svg+xml;utf8,<svg height="512pt" viewBox="0 0 512.016 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path fill="white" d="m202.667969 405.339844c-111.746094 0-202.667969-90.921875-202.667969-202.664063 0-111.746093 90.921875-202.6679685 202.667969-202.6679685 111.742187 0 202.664062 90.9218755 202.664062 202.6679685 0 111.742188-90.921875 202.664063-202.664062 202.664063zm0-373.332032c-94.101563 0-170.667969 76.566407-170.667969 170.667969 0 94.101563 76.566406 170.664063 170.667969 170.664063 94.101562 0 170.664062-76.5625 170.664062-170.664063 0-94.101562-76.5625-170.667969-170.664062-170.667969zm0 0"/><path fill="white" d="m496 512.007812c-4.097656 0-8.191406-1.558593-11.308594-4.691406l-161.277344-161.28125c-6.25-6.25-6.25-16.382812 0-22.636718 6.25-6.25 16.382813-6.25 22.632813 0l161.28125 161.28125c6.25 6.25 6.25 16.382812 0 22.636718-3.136719 3.132813-7.230469 4.691406-11.328125 4.691406zm0 0"/><path fill="white" d="m282.667969 218.675781h-160c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h160c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path fill="white" d="m202.667969 298.675781c-8.832031 0-16-7.167969-16-16v-160c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v160c0 8.832031-7.167969 16-16 16zm0 0"/></svg>');
+            background-size: 21px;
+            background-repeat: no-repeat;
+            background-position: 1.5em center;
+        }
+        /* ------------------ */
+
 #BestsellerAddnewPopupButt {
     margin-bottom: 20px;
 }
@@ -120,3 +181,25 @@ body {
     background-repeat: no-repeat;
     background-position: 2em center;
 }
+        /* PSEUDO SELECTOR FOR RADIO TAB */
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) {
+            display: block;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(2) {
+            display: block;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(3) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(2) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(3) {
+            display: block;
+        }
+        /* ------------------ */
+
+
