@@ -72,6 +72,11 @@ p {
 .conx-divforcard > mat-card > mat-card-content > button > div {
   width: 100%;
 }
+.conx-divforcard > mat-card > mat-card-content > button > span > div > i {
+  height: 120px;
+  padding-top: 40px;
+  display: inline-block;
+}
 
 /* bestseller-addnew-popup.component.scss */
 #BestsellerAddnewPopup {
