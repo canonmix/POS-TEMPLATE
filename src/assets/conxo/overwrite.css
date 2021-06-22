@@ -154,6 +154,27 @@ body {
         }
         /* ------------------ */
 
+        /* PSEUDO SELECTOR FOR RADIO TAB */
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) {
+            display: block;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(2) {
+            display: block;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(3) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(2) {
+            display: none;
+        }
+        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(3) {
+            display: block;
+        }
+        /* ------------------ */
+
 #BestsellerAddnewPopupButt {
     margin-bottom: 20px;
 }
@@ -181,25 +202,5 @@ body {
     background-repeat: no-repeat;
     background-position: 2em center;
 }
-        /* PSEUDO SELECTOR FOR RADIO TAB */
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) {
-            display: block;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) {
-            display: none;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(2) {
-            display: block;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card.groupshow:nth-child(3) {
-            display: none;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(2) {
-            display: none;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card.productshow:nth-child(3) {
-            display: block;
-        }
-        /* ------------------ */
 
 
