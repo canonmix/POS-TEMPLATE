@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { BlankPageComponent } from './blank-page/blank-page.component';
 import { BlankPageComponent2 } from './blank-page2/blank-page2.component';
 import { datainfoComponent } from './datainfo/datainfo.component';
-import { datainfoComponent2 } from './datainfo/test/template.component';
 import { bestsellerComponent } from './datainfo/bestseller/template.component';
 import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
@@ -49,7 +48,6 @@ const routes: Routes = [
       { path: 'blank-page', component: BlankPageComponent },
       { path: 'blank-page2', component: BlankPageComponent2 },
       { path: 'datainfo', component: datainfoComponent },
-      { path: 'datainfo/test', component: datainfoComponent2 },
       { path: 'datainfo/bestseller', component: bestsellerComponent },
       { path: 'datainfo/bestseller/product', component: bestsellerProductComponent },
       { path: 'datainfo/bestseller/product/added', component: bestsellerProductAddedComponent },
