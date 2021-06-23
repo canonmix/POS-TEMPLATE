@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { BestsellerAddnewPopupComponent } from '../../simple-popup/bestseller-addnew-popup.component';
 
 @Component({
   selector: 'app-blank-page',
@@ -54,6 +55,16 @@ export class posdataComponent  {
     this.campaignTwo = new FormGroup({
       start: new FormControl(new Date(year, month, 15)),
       end: new FormControl(new Date(year, month, 19)),
+    });
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(BestsellerAddnewPopupComponent, {
+      panelClass: 'conx-BestsellerAddnewPopup',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
     });
   }
 
