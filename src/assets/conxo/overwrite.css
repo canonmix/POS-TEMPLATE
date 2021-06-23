@@ -352,3 +352,8 @@ input.mat-input-element {
 #conx-salereportformrow > div > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > input {
     border-radius: 0px !important;
 }
+
+/* pos.component.scss */
+.conx-possection > mat-card > div > div > button > span > div > p {
+  font-size: 16px !important;
+}
