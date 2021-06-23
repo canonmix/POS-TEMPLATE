@@ -15,6 +15,7 @@ import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-a
 import { BestsellerEditPopupComponent } from './simple-popup/bestseller-editinfo-popup.component';
 import { salereportComponent } from './datainfo/salereport/template.component';
 import { posdataComponent } from './datainfo/pos/template.component';
+import { PosComplatePopupComponent } from './simple-popup/pos-complete-popup.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { posdataComponent } from './datainfo/pos/template.component';
     BestsellerEditPopupComponent,
     salereportComponent,
     posdataComponent,
+    PosComplatePopupComponent,
   ],
   imports: [
     CommonModule,
@@ -45,6 +47,7 @@ import { posdataComponent } from './datainfo/pos/template.component';
     BestsellerEditPopupComponent,
     salereportComponent,
     posdataComponent,
+    PosComplatePopupComponent,
   ],
 })
 export class AppModule {}
