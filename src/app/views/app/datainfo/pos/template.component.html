@@ -109,11 +109,10 @@
             </div>
 
             <div class="col-12" id="conx-posbottombutt">
-              <mat-dialog-actions>
-                <button mat-button>ตกลง</button>
-              </mat-dialog-actions>
-            </div>
 
+                <button mat-button>ตกลง</button>
+
+            </div>
 
           </div>
 
@@ -126,7 +125,140 @@
       
       <section class="conx-possection conx-possectionright">
         <mat-card>
-          BODY 2
+          
+          <div class="row">
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext conx-possidetexttop"><i class="conx-possumcustomicon"></i> ยอดชำระ</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+              <p class="conx-possidetext"><span class="conx-possumtexttop">{{paymentamount}}</span><span class="conx-poscurtop">บาท</span></p>
+            </div>
+
+            <div class="col-12">
+                <hr>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext">ยอดสุทธิ</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext">{{netamount}}</p> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext conx-possidetextpercent">% ส่วนลด</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext">{{perdiscount}}</p> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext">ยอดที่ต้องชำระ</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext">{{amounttobepaid}}</p> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext">ยอดที่ชำระแล้ว</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext">{{paidamount}}</p> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidetext">ยอดค้างชำระ</p> 
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext">{{outstandingbalance}}</p> 
+            </div>
+
+            <div class="col-12">
+                <hr>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-12 text-left">
+                <p class="conx-possidetext conx-possidetexttop"><i class="conx-possumcustomicon"></i> รายการชำระ</p> 
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+                <p class="conx-possidegreenhead">เงินสด</p>
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+              <p class="conx-possidetext conx-possidedelbutt">
+                <button mat-button>Delete</button>
+              </p>
+            </div>
+
+            <div class="col-12">
+              <div class="row conx-possidegreenbg">
+
+                <div class="col-sm-6 col-md-6 col-6 text-left">
+                  <p class="conx-possidetext">เงินสดรับ</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-right">
+                    <p class="conx-possidetext">{{cashreceived}}</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-left">
+                  <p class="conx-possidetext">ยอดชำระ</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-right">
+                    <p class="conx-possidetext">{{cashpayment}}</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-left">
+                  <p class="conx-possidetext">เงินทอน</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-right">
+                    <p class="conx-possidetext">{{cashchange}}</p> 
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-6 text-left">
+              <p class="conx-possidegreenhead">บัตรเครดิต</p>
+            </div>
+            <div class="col-sm-6 col-md-6 col-6 text-right">
+                <p class="conx-possidetext conx-possidedelbutt">
+                  <button mat-button>Delete</button>
+                </p>
+            </div>
+
+            <div class="col-12">
+              <div class="row conx-possidegreenbg">
+
+                <div class="col-sm-6 col-md-6 col-6 text-left">
+                  <p class="conx-possidetext">ยอดชำระ</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-right">
+                    <p class="conx-possidetext">{{creditpayment}}</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-left">
+                  <p class="conx-possidetext">รายละเอียด</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-6 text-right">
+                    <p class="conx-possidetext">{{creditdetails}}</p> 
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-12">
+                <hr class="conx-possidebottomhr">
+            </div>
+
+            <div class="col-12" id="conx-possidebottombutt">
+              
+              <div>
+                <button mat-button>ย้อนกลับ</button>
+                <button mat-button>ยืนยัน</button>
+              </div>
+
+          </div>
+
+          </div>
+
         </mat-card>
       </section>
 
