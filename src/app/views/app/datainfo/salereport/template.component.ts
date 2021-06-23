@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 
-
 @Component({
   selector: 'app-blank-page',
   templateUrl: './template.component.html',
   styleUrls: ['./salereport.component.scss'],
 })
+
 export class salereportComponent  {
 
   public inputData: any;

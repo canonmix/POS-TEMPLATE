@@ -64,6 +64,26 @@ p {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
 }
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #00a656 !important;
+}
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: #00a656 !important;
+    /* font-size: 0px !important;
+    background-color: transparent !important; */
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+    /* border-top: 0.34375em solid transparent; */
+    border-top: 0px solid transparent;
+    font-size: 16px;
+    padding-top: 20px;
+}
+input.mat-input-element {
+    border-radius: 0px !important;
+}
+.mat-h5, .mat-typography h5 {
+  margin-bottom: 0px !important;
+}
 
 /* bestseller.component.scss */
 .conx-divforcard > mat-card > mat-card-content > button > span {
@@ -315,4 +335,20 @@ p {
     background-size: 14px;
     background-repeat: no-repeat;
     background-position: 1.6em center;
+}
+
+/* salereport.component.scss */
+.conx-salereportdatepicker > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-outline {
+  background-color: #fff;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+.conx-salereportdatepicker > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > span > label {
+    padding-top: 10px;
+}
+#conx-salereportformrow > div > mat-form-field {
+  width: 100% !important;
+}
+#conx-salereportformrow > div > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > input {
+    border-radius: 0px !important;
 }

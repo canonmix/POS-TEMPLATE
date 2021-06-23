@@ -1,3 +1,8 @@
+h5 {
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 7px;
+}
 .conx-headbreadcrumbbackbutt {
   font-size: 32px;
   color: #fff;
@@ -19,4 +24,36 @@
   font-weight: 400;
   color: #00a656 !important;
   font-size: 16px;
+}
+.conx-salereporttopbutt > button {
+  width: 100%;
+  padding: 7px;
+}
+.conx-salereporttopbutt > button:hover {
+  background-color: #00a656 !important;
+  color: #fff !important;
+}
+.conx-salereportdatepicker > mat-form-field {
+  width: 100%;
+}
+#conx-salereportbottombutt {
+  padding-top: 35px;
+}
+#conx-salereportbottombutt > div:nth-child(1) > button {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  color: #fff;
+  background-color: #8f8f8f;
+}
+#conx-salereportbottombutt > div:nth-child(2) > button {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  color: #fff;
+  background-color: #00a656;
+}
+#conx-salereportbottombutt > div > button:hover {
+  color: #ff0;
+  background-color: #8f8f8f;
 }
