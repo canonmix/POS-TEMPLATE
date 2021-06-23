@@ -82,7 +82,7 @@ const data: IMenuItem[] = [
           {
             icon: 'simple-icon-arrow-right',
             label: 'menu.th-datainfo-pos-5',
-            to: `${adminRoot}/datainfo`,
+            to: `${adminRoot}/datainfo/pos`,
           },
           {
             icon: 'simple-icon-arrow-right',
