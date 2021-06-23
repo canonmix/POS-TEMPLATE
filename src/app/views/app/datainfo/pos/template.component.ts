@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
-import { BestsellerAddnewPopupComponent } from '../../simple-popup/bestseller-addnew-popup.component';
+import { PosComplatePopupComponent } from '../../simple-popup//pos-complete-popup.component';
 
 @Component({
   selector: 'app-blank-page',
@@ -59,7 +59,7 @@ export class posdataComponent  {
   }
 
   openDialog() {
-    const dialogRef = this.dialog.open(BestsellerAddnewPopupComponent, {
+    const dialogRef = this.dialog.open(PosComplatePopupComponent, {
       panelClass: 'conx-BestsellerAddnewPopup',
     });
 
