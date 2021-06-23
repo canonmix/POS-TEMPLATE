@@ -8,6 +8,7 @@ import { bestsellerComponent } from './datainfo/bestseller/template.component';
 import { bestsellerProductComponent } from './datainfo/bestseller-product/template.component';
 import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
 import { salereportComponent } from './datainfo/salereport/template.component';
+import { posdataComponent } from './datainfo/pos/template.component';
 
 // อิงจาก https://vien-docs.coloredstrategies.com/docs/codebase/routing ปรับ Router ของ Patch หลักที่นี่
 
