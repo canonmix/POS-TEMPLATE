@@ -4,7 +4,50 @@
 
     <div class="row">
 
-      <div class="col-12">BODY</div>
+      <div class="col-12" id="PosCashcheckPopupTopButt">
+        
+        <button mat-button mat-dialog-close>ย้อนกลับ</button>
+
+      </div>
+
+      <div class="col-12 mt-3">
+        <p class="conx-possidegreenhead">เงินสด</p>
+      </div>
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-6 text-left">
+        <p class="conx-possidetext">เงินสดรับ</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-right">
+          <p class="conx-possidetext">{{cashreceived}}</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-left">
+        <p class="conx-possidetext">ยอดชำระ</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-right">
+          <p class="conx-possidetext">{{cashpayment}}</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-left">
+        <p class="conx-possidetext">เงินทอน</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-right">
+          <p class="conx-possidetext">{{cashchange}}</p> 
+      </div>
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-12 mt-4">
+        <p class="conx-possidegreenhead">รายละเอียดชำระเงินสด</p>
+      </div>
+
+      <div class="col-12">
+        <p class="conx-possidetext">การชำระเงินไม่มีค่าธรรมเนียมอื่นๆเพิ่มเติม</p> 
+      </div>
 
     </div>
 
@@ -13,6 +56,9 @@
 </div>
 
 <div id="PosCashcheckPopupButt">
+
+    <button mat-button mat-dialog-close>ยกเลิก</button>
+    <button mat-button mat-dialog-close>ยืนยัน</button>
 
 </div>
 
