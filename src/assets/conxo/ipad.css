@@ -1,0 +1,48 @@
+/* FIX IPAD 1366 logical screen sizes */
+
+@media screen and (max-width: 1366px) {
+
+body {
+    padding-bottom: 0px !important;
+}
+#app-container {
+    zoom: 90% !important;
+}
+
+}
+
+
+/* FIX IPAD 1024 logical screen sizes */
+
+@media screen and (max-width: 1024px) {
+
+body {
+    padding-bottom: 0px !important;
+}
+#app-container {
+    zoom: 100% !important;
+}
+.conx-posheaderdiv {
+    zoom: 70% !important;
+}
+.conx-possectionleft {
+    zoom: 80% !important;
+}
+.conx-possectionright {
+    zoom: 65% !important;
+}
+.conx-possection > mat-card {
+  min-height: 738px !important;
+}
+.app-menu {
+    transform: none !important;
+}
+.conx-bestselleritemsdiv {
+    max-width: 840px !important;
+    zoom: 72% !important;
+}
+#conx-bestsidediv > a.app-menu-button {
+    display: none !important;
+}
+
+}
