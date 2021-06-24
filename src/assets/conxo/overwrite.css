@@ -393,3 +393,15 @@ input.mat-input-element {
 .conx-PosAddressPopup > mat-dialog-container {
     border-radius: 0px !important;
 }
+
+/* pos-newaddress-popup.component.scss */
+.conx-PosNewAddressPopup {
+    display: block !important;
+    height: 100% !important;
+    right: 0px !important;
+    position: absolute !important;
+    width: 550px !important;
+}
+.conx-PosNewAddressPopup > mat-dialog-container {
+    border-radius: 0px !important;
+}

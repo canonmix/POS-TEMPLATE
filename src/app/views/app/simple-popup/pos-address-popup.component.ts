@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { PosTaxinvPopupComponent } from './pos-taxinv-popup.component';
+import { PosNewAddressPopupComponent } from './pos-newaddress-popup.component';
 
 @Component({
   selector: 'app-simple-popup',
@@ -49,6 +50,15 @@ export class PosAddressPopupComponent {
   openDialog5() {
     const dialogRef = this.dialog.open(PosTaxinvPopupComponent, {
       panelClass: 'conx-PosTaxinvPopup',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+  openDialog7() {
+    const dialogRef = this.dialog.open(PosNewAddressPopupComponent, {
+      panelClass: 'conx-PosNewAddressPopup',
     });
 
     dialogRef.afterClosed().subscribe(result => {
