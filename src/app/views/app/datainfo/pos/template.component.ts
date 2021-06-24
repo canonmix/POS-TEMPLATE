@@ -60,7 +60,8 @@ export class posdataComponent  {
 
   openDialog() {
     const dialogRef = this.dialog.open(PosComplatePopupComponent, {
-      panelClass: 'conx-BestsellerAddnewPopup',
+      width: '590px',
+      panelClass: 'conx-PosComplatePopup',
     });
 
     dialogRef.afterClosed().subscribe(result => {
