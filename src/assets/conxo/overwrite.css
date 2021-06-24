@@ -336,6 +336,10 @@ input.mat-input-element {
     background-repeat: no-repeat;
     background-position: 1.6em center;
 }
+.conx-divforcard > mat-card > mat-card-content > button > span > div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
 /* salereport.component.scss */
 .conx-salereportdatepicker > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-outline {
@@ -404,4 +408,9 @@ input.mat-input-element {
 }
 .conx-PosNewAddressPopup > mat-dialog-container {
     border-radius: 0px !important;
+}
+
+/* datainfo.component.scss */
+.conx-datainfosellsearchdiv > mat-form-field > div > div.mat-form-field-flex > div:nth-child(1) {
+    background-color: #fff !important;
 }
