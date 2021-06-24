@@ -103,6 +103,9 @@ input.mat-input-element {
 .conx-divforcard > span > div > p {
   font-weight: 300;
 }
+.mat-flat-button.mat-accent, .mat-raised-button.mat-accent, .mat-fab.mat-accent, .mat-mini-fab.mat-accent {
+    background-color: #00a656 !important;
+}
 
 /* bestseller-addnew-popup.component.scss */
 #BestsellerAddnewPopup {

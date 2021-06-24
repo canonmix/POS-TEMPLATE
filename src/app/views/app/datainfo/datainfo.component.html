@@ -97,23 +97,40 @@
                                 <table class="table" id="conx-datainfoitemstable">
                                     <thead class="thead-light">
                                         <tr>
-                                            <th scope="col">สินค้า</th>
-                                            <th scope="col">ราคา / หน่วย</th>
+                                            <th scope="col">รูปสินค้า</th>
+                                            <th scope="col">ชื่อสินค้า</th>
+                                            <th scope="col">ราคา/หน่วย</th>
                                             <th scope="col">จำนวน</th>
                                             <th scope="col">ส่วนลด</th>
                                             <th scope="col">ราคาสุทธิ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>#</td>
-                                            <td>#</td>
-                                            <td>#</td>
-                                            <td>#</td>
-                                            <td>#</td>
+
+                                        <!-- START TABLE LOOP -->
+
+                                        <tr class="conx-datainfotrloop" class="conx-datainfotrloop">
+                                            <td><img src="/assets/conxo/demo/product1.jpg" alt="Demo Product" width="80" class="border-0" /></td>
+                                            <td>ACC002 กล่องใส่ของด้านหลัง GIVI 30L สีดำ(KIT TOP BOX BLACK)</td>
+                                            <td>8,188.00</td>
+                                            <td>
+                                                <button mat-mini-fab aria-label="remove"><mat-icon>remove</mat-icon></button>
+                                                <span>1</span>
+                                                <button mat-mini-fab aria-label="add"><mat-icon>add</mat-icon></button>
+                                            </td>
+                                            <td>150</td>
+                                            <td>8,188.00</td>
                                         </tr>
+
+                                        <!-- END TABLE LOOP -->
+
                                     </tbody>
                                   </table>
+
+                                  <div id="conx-datainfoitemstools">
+                                        <button mat-button>ส่วนลด</button>
+                                        <button mat-button>ลบรายการ</button>
+                                  </div>
 
                             </mat-card>
                         </div>
@@ -147,7 +164,7 @@
 
                     <div class="row" id="conx-bestselleritemsdiv">
                     
-                        <div class="col-md-3 col-lg-3 col-sm-2 col-3 mb-3 conx-divforcard" id="conx-divforcard">
+                        <div class="col-md-3 col-lg-3 col-sm-2 col-3 mb-3 conx-divforcard">
                             <mat-card>
                                 <mat-card-content>
                                 <button mat-raised-button>
@@ -270,7 +287,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-2 col-3 mb-3 conx-divforcard">
                             <mat-card>
                                 <mat-card-content>
-                                  <button mat-raised-button routerLink="/app/datainfo/bestseller/product">
+                                  <button mat-raised-button routerLink="/app/datainfo/bestseller/product/added">
                                     <div class="card-body text-center conx-bestsellericon pb-0">
                                         <i class="iconsminds-empty-box"></i>
                                         <p class="card-text mt-4 mb-0">หมวกกันน็อค</p>
