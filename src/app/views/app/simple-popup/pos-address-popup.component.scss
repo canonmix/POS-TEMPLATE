@@ -1,5 +1,20 @@
 /* IT INCLUDE BUT IT CANNOT OVERWRITTE with indigo-pink.css BECAUSE ORDER of STACK  */
 
+#PosAddressPopupTopBackButt > button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    width: 25%;
+    padding: 3px;
+    font-size: 16px;
+    padding-left: 32px;
+    display: block;
+    float: right;
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"> <g> <path fill="black" id="Chevron_Right" d="M57.633,129.007L165.93,237.268c4.752,4.74,12.451,4.74,17.215,0c4.752-4.74,4.752-12.439,0-17.179 l-99.707-99.671l99.695-99.671c4.752-4.74,4.752-12.439,0-17.191c-4.752-4.74-12.463-4.74-17.215,0L57.621,111.816 C52.942,116.507,52.942,124.327,57.633,129.007z"/></g></svg>');
+    background-size: 21px;
+    background-repeat: no-repeat;
+    background-position: 1em center;
+}
  #PosAddressPopup > mat-dialog-content {
     height: 100% !important;
     overflow: visible !important;
@@ -32,16 +47,26 @@
   margin-top: 10px;
 }
  #PosAddressPopupTopButt > button {
-    background-color: #0e77ed !important;
-    border: 1px solid #0e77ed;
+    background-color: #515254 !important;
+    border: 1px solid #515254;
     color: #fff;
-    width: 71%;
+    width: 80%;
     padding: 5px;
+    padding-left: 45px;
     font-size: 16px;
     border-radius: 10px;
     display: block;
     margin: auto;
     box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    background-image: url('data:image/svg+xml;utf8,<svg id="Capa_1" enable-background="new 0 0 443.294 443.294" height="512" viewBox="0 0 443.294 443.294" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="white" d="m235.5 166.235h-27.706v69.265h-69.264v27.706h69.265v69.265h27.705v-69.265h69.265v-27.706h-69.265z"/><path fill="white" d="m383.824 114.882-110.824-110.824c-2.597-2.597-6.114-4.058-9.794-4.058h-180.088c-15.274 0-27.706 12.432-27.706 27.706v387.882c0 15.273 12.432 27.706 27.706 27.706h277.059c15.273 0 27.706-12.432 27.706-27.706v-290.912c-.001-3.679-1.462-7.197-4.059-9.794zm-106.765-67.587 63.529 63.529h-63.529zm83.117 368.294h-277.058v-387.882h166.235v83.118c0 15.273 12.432 27.706 27.706 27.706h83.118v277.058z"/></svg>');
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: 1em center;
+}
+#PosAddressPopupTopButt > button:hover {
+    background-color: #8f8f8f !important;
+    border: 1px solid #8f8f8f;
+    color: #ff0 !important;
 }
 .conx-posaddressformin > h5 {
     font-size: 16px;
@@ -88,4 +113,21 @@
     background-color: #565656 !important;
     border: 1px solid #565656;
     color: #ff0 !important;
+}
+.conx-posaddressradiograydiv {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f5f5f5;
+}
+.conx-posaddressradiograydiv > div.col-1 {
+    text-align: center;
+    padding: 0px;
+    padding-top: 0.8em;
+}
+.conx-posaddressradiograydiv > div.col-11 > p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 0px;
 }

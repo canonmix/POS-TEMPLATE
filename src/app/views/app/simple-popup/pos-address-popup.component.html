@@ -4,11 +4,13 @@
 
     <div class="row">
 
-      <div class="col-12 conx-posaddressspacer"></div>
+      <div class="col-12" id="PosAddressPopupTopBackButt">
+        
+        <button mat-button mat-dialog-close (click)="openDialog5()">ย้อนกลับ</button>
 
-      
+      </div>
 
-      <div class="col-12 conx-posaddressspacer2"></div>
+      <div class="col-12 conx-posaddressspacer conx-posaddressspacer2"></div>
 
       <div class="col-sm-7 col-md-7 col-7 text-left">
         <p class="conx-possidetext conx-possidetexttop"><i class="conx-posaddresscustomicon"></i> เพิ่มที่อยู่</p> 
@@ -23,7 +25,35 @@
 
       <div class="col-12">
 
-        BODY
+        <mat-radio-group aria-label="Select an option">
+
+          <!-- START RADIO LOOP -->
+
+          <div class="row conx-posaddressradiograydiv" id="conx-posaddressradiograydiv">
+            
+            <div class="col-1">
+              <mat-radio-button value="1"></mat-radio-button>
+            </div>
+            <div class="col-11">
+                <p>50/828 หมู่ 9,ถ.บอนด์สตรีท ต. บางพูด อ. ปากเกร็ด จ. นนทบุรี 11120. โทรศัพท์ : 02 105 4028</p>
+            </div>
+
+          </div>
+
+          <div class="row conx-posaddressradiograydiv">
+            
+            <div class="col-1">
+              <mat-radio-button value="2"></mat-radio-button>
+            </div>
+            <div class="col-11">
+                <p>Bangkok Land Building 47/569-576 Popular 3 Road, Banmai Sub-district,Pakkred District, Nonthaburi 11120GREATER BANGKOK, THAILAND.</p>
+            </div>
+
+          </div>
+
+          <!-- END RADIO LOOP -->
+
+      </mat-radio-group>
 
       </div>
 
