@@ -4,30 +4,82 @@
 
     <div class="row">
 
+      <div class="col-12 conx-postaxinvspacer"></div>
+
       <div class="col-sm-7 col-md-7 col-7 text-left">
-        <p class="conx-possidehead">HEAD</p> 
+        <p class="conx-possidetext conx-possidetexttop"><i class="conx-postaxinvcustomicon"></i> พิมพ์ใบกำกับภาษีเต็มรูปแบบ</p> 
       </div>
-      <div class="col-sm-5 col-md-5 col-5 text-right">
-          BUTTON
+      <div class="col-sm-5 col-md-5 col-5 text-right" id="PosTaxinvPopupTopButt">
+
+          <button mat-button>เปลี่ยนที่อยู่</button>
+
       </div>
 
+      <div class="col-12 conx-postaxinvspacer2"></div>
+
       <div class="col-12">
-        BUTTON
+
+        <div class="conx-postaxinvformin">
+          
+              <h5>ชื่อสำหรับออกใบกำกับ *</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+          
+        </div>
+
+        <div class="conx-postaxinvformin">
+          
+              <h5>ชื่อสาขา *</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+          
+        </div>
+
+        <div class="conx-postaxinvformin">
+          
+              <h5>ที่อยู่ *</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+          
+        </div>
+
+        <div class="conx-postaxinvformin">
+          
+              <h5>เลขประจำตัวผู้เสียภาษี *</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+          
+        </div>
+
+        <div class="conx-postaxinvformin">
+          
+              <h5>หมายเลขโทรศัพท์ *</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+          
+        </div>
+
       </div>
 
     </div>
 
+    <div id="PosTaxinvPopupButt">
+
+      <button mat-button mat-dialog-close>ยกเลิก</button>
+      <button mat-button mat-dialog-close>ยืนยัน</button>
+  
+    </div>
+
   </mat-dialog-content>
 
-</div>
-
-<div id="PosTaxinvPopupButt">
-
-    <button mat-button mat-dialog-close>ยกเลิก</button>
-    <button mat-button mat-dialog-close>ยืนยัน</button>
-
-</div>
-
-<div>
-  
 </div>
