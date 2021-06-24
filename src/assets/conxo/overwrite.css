@@ -369,3 +369,15 @@ input.mat-input-element {
 .conx-PosCashcheckPopup > mat-dialog-container {
     border-radius: 0px !important;
 }
+
+/* pos-taxinv-popup.component.scss */
+.conx-PosTaxinvPopup {
+    display: block !important;
+    height: 100% !important;
+    right: 0px !important;
+    position: absolute !important;
+    width: 550px !important;
+}
+.conx-PosTaxinvPopup > mat-dialog-container {
+    border-radius: 0px !important;
+}

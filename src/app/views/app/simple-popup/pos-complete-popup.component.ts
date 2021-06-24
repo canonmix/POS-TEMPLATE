@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { PosCashcheckPopupComponent } from './pos-cashcheck-popup.component';
+import { PosTaxinvPopupComponent } from './pos-taxinv-popup.component';
 
 @Component({
   selector: 'app-simple-popup',
@@ -49,6 +50,15 @@ export class PosComplatePopupComponent {
   openDialog2() {
     const dialogRef = this.dialog.open(PosCashcheckPopupComponent, {
       panelClass: 'conx-PosCashcheckPopup',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+  openDialog3() {
+    const dialogRef = this.dialog.open(PosTaxinvPopupComponent, {
+      panelClass: 'conx-PosTaxinvPopup',
     });
 
     dialogRef.afterClosed().subscribe(result => {
