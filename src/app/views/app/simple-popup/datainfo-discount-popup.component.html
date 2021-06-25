@@ -1,52 +1,81 @@
-<div id="PosCashcheckPopup">
+<div id="DatainfoDiscountPopup">
 
   <mat-dialog-content class="mat-typography">
 
     <div class="row">
 
-      <div class="col-12" id="PosCashcheckPopupTopButt">
+      <div class="col-12" id="DatainfoDiscountPopupTopButt">
         
         <button mat-button mat-dialog-close>ย้อนกลับ</button>
 
       </div>
 
       <div class="col-12 mt-3">
-        <p class="conx-possidegreenhead">เงินสด</p>
+        <h1 class="conx-datainfoh1"><i class="conx-datainfodiscounticon1"></i> ส่วนลด</h1>
       </div>
 
       <div class="col-12">
-        <hr>
+          <div class="conx-postaxinvformin" id="conx-postaxinvformin1">
+
+            <h5>*เลือกรายการส่วนลด</h5>
+            <mat-form-field appearance="outline">
+              <mat-label>ส่วนลดพิเศษสำหรับลูกค้าสมาชิก</mat-label>
+              <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+              </mat-select>
+            </mat-form-field>
+        
+          </div>
       </div>
 
-      <div class="col-sm-6 col-md-6 col-6 text-left">
-        <p class="conx-possidetext">เงินสดรับ</p> 
+      <div class="col-sm-12 col-md-6 col-6">
+
+        <div class="conx-postaxinvformin">
+            <h5>*เปอร์เซ็นส่วนลด</h5>
+            <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+            </mat-form-field>
+        </div>
+        
       </div>
-      <div class="col-sm-6 col-md-6 col-6 text-right">
-          <p class="conx-possidetext">0000</p>
-      </div>
-      <div class="col-sm-6 col-md-6 col-6 text-left">
-        <p class="conx-possidetext">ยอดชำระ</p> 
-      </div>
-      <div class="col-sm-6 col-md-6 col-6 text-right">
-          <p class="conx-possidetext">0000</p> 
-      </div>
-      <div class="col-sm-6 col-md-6 col-6 text-left">
-        <p class="conx-possidetext">เงินทอน</p> 
-      </div>
-      <div class="col-sm-6 col-md-6 col-6 text-right">
-          <p class="conx-possidetext">0000</p> 
+      <div class="col-sm-12 col-md-6 col-6">
+          
+        <div class="conx-postaxinvformin">
+            <h5>*เป็นจำนวนเงิน (บาท)</h5>
+            <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+            </mat-form-field>
+        </div>
+
       </div>
 
       <div class="col-12">
-        <hr>
-      </div>
 
-      <div class="col-12 mt-4">
-        <p class="conx-possidegreenhead">รายละเอียดชำระเงินสด</p>
+          <h1 class="conx-datainfoh1"><i class="conx-datainfodiscounticon2"></i> คูปอง</h1>
+
       </div>
 
       <div class="col-12">
-        <p class="conx-possidetext">การชำระเงินไม่มีค่าธรรมเนียมอื่นๆเพิ่มเติม</p> 
+
+        <div class="conx-postaxinvformin">
+            <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+            </mat-form-field>
+        </div>
+
+      </div>
+
+      <div class="col-sm-12 col-md-8 col-8">
+        <h1 class="conx-datainfoh1"><i class="conx-datainfodiscounticon3"></i> รายการส่วนลดโปรโมชั่น</h1>
+      </div>
+      <div class="col-sm-12 col-md-4 col-4">
+          <div id="conx-datainfodiscountseeallbutt">
+            <button mat-button mat-dialog-close>ดูทั้งหมด</button>
+          </div>
       </div>
 
     </div>
@@ -55,10 +84,31 @@
 
 </div>
 
-<div id="PosCashcheckPopupButt">
+<div id="DatainfoDiscountPopupButt">
 
-    <button mat-button mat-dialog-close>ยกเลิก</button>
-    <button mat-button mat-dialog-close>ยืนยัน</button>
+  <div class="row">
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-6 text-left">
+        <p class="conx-possidetext">ส่วนลดรวมทั้งหมด</p> 
+      </div>
+      <div class="col-sm-6 col-md-6 col-6 text-right">
+          <p class="conx-possidegreenhead">250 บาท</p> 
+      </div>
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-12">
+        <button mat-button mat-dialog-close>ยกเลิก</button>
+        <button mat-button mat-dialog-close>ยืนยัน</button>
+      </div>
+
+  </div>
 
 </div>
 

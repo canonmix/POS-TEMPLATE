@@ -418,7 +418,7 @@ input.mat-input-element {
     background-color: #fff !important;
 }
 
-/* datainfo.component.scss */
+/* datainfo-discount-popup.component.scss */
 .conx-DatainfoDiscountPopup {
     display: block !important;
     height: 100% !important;
@@ -428,4 +428,7 @@ input.mat-input-element {
 }
 .conx-DatainfoDiscountPopup > mat-dialog-container {
     border-radius: 0px !important;
+}
+#conx-postaxinvformin1 > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > span > label {
+    padding-top: 7px !important;
 }

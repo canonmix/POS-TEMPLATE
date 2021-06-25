@@ -1,6 +1,6 @@
 /* IT INCLUDE BUT IT CANNOT OVERWRITTE with indigo-pink.css BECAUSE ORDER of STACK  */
 
-#PosCashcheckPopupTopButt > button {
+#DatainfoDiscountPopupTopButt > button {
     background-color: transparent;
     border: none;
     color: #000;
@@ -24,13 +24,13 @@
     color: #00a656;
     font-weight: 400;
 }
-#PosCashcheckPopupButt {
+#DatainfoDiscountPopupButt {
     bottom: 10px;
     position: fixed;
     width: 100%;
     max-width: 510px;
 }
-#PosCashcheckPopupButt > button:nth-child(1) {
+#DatainfoDiscountPopupButt > div > div > button:nth-child(1) {
     background-color: #8f8f8f !important;
     border: 1px solid #8f8f8f;
     color: #fff;
@@ -42,7 +42,7 @@
     margin-right: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-#PosCashcheckPopupButt > button:nth-child(2) {
+#DatainfoDiscountPopupButt > div > div > button:nth-child(2) {
     background-color: #00a656 !important;
     border: 1px solid #00a656;
     color: #fff;
@@ -59,7 +59,82 @@
     background-repeat: no-repeat;
     background-position: 1.5em center;
 }
-#PosCashcheckPopupButt > button:hover {
+#DatainfoDiscountPopupButt > div > div > button:hover {
+    background-color: #565656 !important;
+    border: 1px solid #565656;
+    color: #ff0 !important;
+}
+.conx-datainfoh1 {
+    color: #797979;
+    margin-bottom: 0px;
+    margin-top: 15PX;
+}
+.conx-datainfodiscounticon1 {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('data:image/svg+xml;utf8,<svg id="Capa_1" enable-background="new 0 0 511.986 511.986" height="512" viewBox="0 0 511.986 511.986" width="512" xmlns="http://www.w3.org/2000/svg"><g><path fill="%23797979" d="m185.08 114.947c1.405 7.504 8.849 13.422 17.63 11.78 8.526-1.78 13.375-9.955 11.78-17.64-1.873-8.936-10.699-13.914-19.061-11.42-7.469 2.229-11.887 9.942-10.349 17.28z"/><path fill="%23797979" d="m508.225 324.453c-81.619-237.586-76.004-221.308-76.353-222.117-8.496-19.663-24.988-34.949-45.249-41.94-2.901-1.001-167.187-39.431-171.935-41.075-14.561-5.043-34.791-2.216-48.993 10.846l-140.789 129.549c-15.828 14.558-24.906 35.282-24.906 56.86v229.41c0 27.035 21.877 49.03 48.768 49.03h301.205c26.891 0 48.768-21.995 48.768-49.03v-22.174l83.955-35.93c24.409-10.563 35.764-38.912 25.529-63.429zm-158.252 140.563h-301.205c-10.349 0-18.768-8.537-18.768-19.03v-229.41c0-13.209 5.546-25.887 15.217-34.782 120.62-110.988 46.064-41.76 141.269-129.559 4.965-4.576 11.82-6.414 18.619-4.364 6.077 1.815-4.646-6.919 148.421 133.925 9.669 8.894 15.215 21.571 15.215 34.78v229.41c-.001 10.493-8.42 19.03-18.768 19.03zm120.864-104.691-72.097 30.855v-174.604c0-21.578-9.078-42.302-24.904-56.858l-104.848-96.477 108.503 25.746c11.844 4.287 21.498 13.261 26.626 24.757 81.464 237.133 75.969 221.217 76.326 222.038 4.096 9.468-.238 20.489-9.606 24.543z"/><path fill="%23797979" d="m241.959 202.297c-7.637-3.206-16.43.39-19.636 8.028l-73.023 174.04c-4.166 9.929 3.193 20.808 13.825 20.808 5.861 0 11.429-3.457 13.839-9.2l73.023-174.04c3.205-7.64-.389-16.431-8.028-19.636z"/><path fill="%23797979" d="m171.659 245.52c0-28.95-21.203-52.503-47.266-52.503s-47.265 23.553-47.265 52.503 21.203 52.503 47.266 52.503 47.265-23.553 47.265-52.503zm-47.265 22.503c-9.359 0-17.266-10.305-17.266-22.503s7.906-22.503 17.266-22.503 17.266 10.305 17.266 22.503c-.001 12.198-7.907 22.503-17.266 22.503z"/><path fill="%23797979" d="m275.751 312.011c-26.063 0-47.266 23.553-47.266 52.503s21.203 52.503 47.266 52.503 47.266-23.553 47.266-52.503-21.204-52.503-47.266-52.503zm0 75.006c-9.359 0-17.266-10.305-17.266-22.503s7.906-22.503 17.266-22.503 17.266 10.305 17.266 22.503-7.907 22.503-17.266 22.503z"/></g></svg>');
+}
+.conx-datainfodiscounticon2 {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128"><g><path fill="%23797979" d="M121.5,55.75A1.75,1.75,0,0,0,123.25,54V35.25a1.75,1.75,0,0,0-1.75-1.75H6.5a1.751,1.751,0,0,0-1.75,1.75V54A1.751,1.751,0,0,0,6.5,55.75a8.25,8.25,0,0,1,0,16.5A1.75,1.75,0,0,0,4.75,74V92.75A1.75,1.75,0,0,0,6.5,94.5h115a1.749,1.749,0,0,0,1.75-1.75V74a1.749,1.749,0,0,0-1.75-1.75,8.25,8.25,0,0,1,0-16.5ZM109.75,64a11.77,11.77,0,0,0,10,11.62V91h-86V89.75a1.75,1.75,0,1,0-3.5,0V91h-22V75.62a11.751,11.751,0,0,0,0-23.24V37h22v1.25a1.75,1.75,0,1,0,3.5,0V37h86V52.38A11.77,11.77,0,0,0,109.75,64Z"/><path fill="%23797979" d="M32,76.556a1.75,1.75,0,0,0-1.75,1.75v5.721a1.75,1.75,0,1,0,3.5,0V78.306A1.75,1.75,0,0,0,32,76.556Z"/><path fill="%23797979" d="M32,42.222a1.751,1.751,0,0,0-1.75,1.75v5.722a1.75,1.75,0,0,0,3.5,0V43.972A1.751,1.751,0,0,0,32,42.222Z"/><path fill="%23797979" d="M32,53.667a1.75,1.75,0,0,0-1.75,1.75v5.722a1.75,1.75,0,0,0,3.5,0V55.417A1.75,1.75,0,0,0,32,53.667Z"/><path fill="%23797979" d="M32,65.111a1.751,1.751,0,0,0-1.75,1.75v5.722a1.75,1.75,0,1,0,3.5,0V66.861A1.751,1.751,0,0,0,32,65.111Z"/><path fill="%23797979" d="M102.5,52.667H44.75a1.75,1.75,0,0,0,0,3.5H102.5a1.75,1.75,0,0,0,0-3.5Z"/><path fill="%23797979" d="M102.5,62.25H44.75a1.75,1.75,0,0,0,0,3.5H102.5a1.75,1.75,0,0,0,0-3.5Z"/><path fill="%23797979" d="M44.75,46.583H69.525a1.75,1.75,0,0,0,0-3.5H44.75a1.75,1.75,0,0,0,0,3.5Z"/><path d="M102.5,71.833H44.75a1.75,1.75,0,0,0,0,3.5H102.5a1.75,1.75,0,0,0,0-3.5Z"/><path fill="%23797979" d="M102.5,81.417H88.744a1.75,1.75,0,0,0,0,3.5H102.5a1.75,1.75,0,0,0,0-3.5Z"/></g></svg>');
+}
+.conx-datainfodiscounticon3 {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 8px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396.88 396.88" style="enable-background:new 0 0 396.88 396.88;" xml:space="preserve"> <g> <g> <path fill="%23797979" d="M321.16,0L75.72,0c-4.418,0-8,3.582-8,8v380.88c-0.011,3.191,1.875,6.084,4.8,7.36c1.011,0.431,2.101,0.649,3.2,0.64 c1.983-0.005,3.893-0.746,5.36-2.08L198.44,288L315.8,394.8c3.28,2.96,8.339,2.701,11.299-0.579 c1.322-1.465,2.056-3.367,2.061-5.341V8C329.16,3.582,325.578,0,321.16,0z M203.8,271.28c-3.057-2.797-7.743-2.797-10.8,0 L83.72,370.8V16h229.44l0,354.8L203.8,271.28z"/> </g> </g> <g> <g> <path fill="%23797979" d="M284.334,117.488c-1.232-1.28-2.856-2.113-4.614-2.368l-51.2-7.44l-23.2-46c-1.971-3.954-6.774-5.562-10.729-3.591 c-1.555,0.775-2.816,2.036-3.591,3.591l-22.88,46.4l-51.2,7.44c-4.372,0.634-7.403,4.693-6.768,9.066 c0.255,1.758,1.088,3.382,2.368,4.614l37.28,35.68l-8.48,51.36c-0.724,4.359,2.222,8.479,6.58,9.203 c1.716,0.285,3.478,0.003,5.02-0.803l45.76-24l45.76,24c3.915,2.048,8.749,0.535,10.797-3.38c0.806-1.541,1.088-3.304,0.803-5.02 l-8.96-51.36l37.04-36.08C287.303,125.736,287.399,120.671,284.334,117.488z M232.92,156.88c-1.879,1.825-2.746,4.455-2.32,7.04 l6.72,39.04l-35.2-18.48c-2.329-1.223-5.111-1.223-7.44,0l-35.12,18.48l6.72-39.12c0.426-2.585-0.441-5.215-2.32-7.04l-28.4-27.68 l39.28-6.16c2.602-0.391,4.845-2.036,6-4.4l17.6-35.6l17.6,35.6c1.155,2.364,3.398,4.009,6,4.4l39.28,5.68L232.92,156.88z"/> </g> </g> </svg>');
+}
+#conx-postaxinvformin1 > h5 {
+    padding-bottom: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #f00;
+    font-family: 'Kanit', sans-serif;
+}
+#conx-postaxinvformin1 > mat-form-field {
+    width: 100%;
+}
+.conx-postaxinvformin > h5 {
+    font-size: 16px;
+    color: #f00;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+.conx-postaxinvformin > mat-form-field {
+    width: 100%;
+}
+#conx-datainfodiscountseeallbutt > button {
+    background-color: #00a656 !important;
+    border: 1px solid #00a656;
+    color: #fff;
+    width: 100%;
+    padding: 3px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#conx-datainfodiscountseeallbutt > button:hover {
     background-color: #565656 !important;
     border: 1px solid #565656;
     color: #ff0 !important;
