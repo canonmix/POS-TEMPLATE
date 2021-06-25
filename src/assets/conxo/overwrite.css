@@ -417,3 +417,15 @@ input.mat-input-element {
 .conx-datainfosellsearchdiv > mat-form-field > div > div.mat-form-field-flex > div:nth-child(1) {
     background-color: #fff !important;
 }
+
+/* datainfo.component.scss */
+.conx-DatainfoDiscountPopup {
+    display: block !important;
+    height: 100% !important;
+    right: 0px !important;
+    position: absolute !important;
+    width: 550px !important;
+}
+.conx-DatainfoDiscountPopup > mat-dialog-container {
+    border-radius: 0px !important;
+}

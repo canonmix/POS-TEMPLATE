@@ -1,6 +1,7 @@
 import { Component} from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { DatainfoDiscountPopupComponent } from '../simple-popup/datainfo-discount-popup.component';
 
 @Component({
   selector: 'app-blank-page',
@@ -42,6 +43,16 @@ export class datainfoComponent  {
     this.campaignTwo = new FormGroup({
       start: new FormControl(new Date(year, month, 15)),
       end: new FormControl(new Date(year, month, 19)),
+    });
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(DatainfoDiscountPopupComponent, {
+      panelClass: 'conx-DatainfoDiscountPopup',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
     });
   }
 
