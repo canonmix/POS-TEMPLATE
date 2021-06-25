@@ -143,7 +143,7 @@ const data: IMenuItem[] = [
       },
       {
         label: 'menu.th-printreceipt',
-        to: `${adminRoot}/datainfo`,
+        to: `${adminRoot}/issued/receipt`,
         // roles: [UserRole.Editor],
       },
     ],

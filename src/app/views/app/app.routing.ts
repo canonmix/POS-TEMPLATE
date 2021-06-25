@@ -10,6 +10,7 @@ import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-a
 import { salereportComponent } from './datainfo/salereport/template.component';
 import { posdataComponent } from './datainfo/pos/template.component';
 import { ConxoComponent } from './dashboards/conxo/conxo.component';
+import { ReceiptComponent } from './issued/receipt/template.component';
 
 // อิงจาก https://vien-docs.coloredstrategies.com/docs/codebase/routing ปรับ Router ของ Patch หลักที่นี่
 
@@ -56,6 +57,7 @@ const routes: Routes = [
       { path: 'datainfo/bestseller/product/added', component: bestsellerProductAddedComponent },
       { path: 'datainfo/salereport', component: salereportComponent },
       { path: 'datainfo/pos', component: posdataComponent },
+      { path: 'issued/receipt', component: ReceiptComponent },
     ],
   },
 ];
