@@ -21,6 +21,7 @@ import { PosTaxinvPopupComponent } from './simple-popup/pos-taxinv-popup.compone
 import { PosAddressPopupComponent } from './simple-popup/pos-address-popup.component';
 import { PosNewAddressPopupComponent } from './simple-popup/pos-newaddress-popup.component';
 import { datainfoComponent } from './datainfo/datainfo.component';
+import { DatainfoDiscountPopupComponent } from './simple-popup/datainfo-discount-popup.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { datainfoComponent } from './datainfo/datainfo.component';
     PosAddressPopupComponent,
     PosNewAddressPopupComponent,
     datainfoComponent,
+    DatainfoDiscountPopupComponent,
   ],
   imports: [
     CommonModule,
@@ -63,6 +65,7 @@ import { datainfoComponent } from './datainfo/datainfo.component';
     PosAddressPopupComponent,
     PosNewAddressPopupComponent,
     datainfoComponent,
+    DatainfoDiscountPopupComponent,
   ],
 })
 export class AppModule {}
