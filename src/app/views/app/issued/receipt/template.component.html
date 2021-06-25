@@ -1,0 +1,251 @@
+<div class="container-fluid">
+  <div class="row">
+  
+    <div class="col-8">
+      
+      <h1><i class="glyph-icon iconsminds-book conx-h1topicon"></i> รายงานการขายสินค้าแบบละเอียด<span class="conx-headbreadcrumb"></span></h1>
+  
+    </div>
+  
+    <div class="col-4 text-right">
+    </div>
+  
+    <div class="display-options-container col-12">
+  
+        <div class="separator mb-4"></div>
+  
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-3 mb-4">
+
+      <section class="conx-receipttopbutt">
+        <button mat-raised-button>วันนี้</button>
+      </section>
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-3 mb-4">
+
+      <section class="conx-receipttopbutt">
+        <button mat-raised-button>เมื่อวานนี้</button>
+      </section>
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-3 mb-4">
+
+      <section class="conx-receipttopbutt">
+        <button mat-raised-button>สัปดาห์นี้</button>
+      </section>
+
+    </div>
+
+    <div class="col-sm-6 col-md-3 col-3 mb-4">
+
+      <section class="conx-receipttopbutt">
+        <button mat-raised-button>เดือนนี้</button>
+      </section>
+
+    </div>
+
+    <div class="col-sm-6 col-6 mb-2">
+
+      <section class="conx-receiptdatepicker">
+        <h5>ตั้งแต่วันที่</h5>
+        <mat-form-field appearance="outline">
+          <mat-label>Choose a date</mat-label>
+          <input matInput [matDatepicker]="picker">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    </section>
+
+    </div>
+
+    <div class="col-sm-6 col-6 mb-2">
+      
+      <section class="conx-receiptdatepicker">
+        <h5>ถึงวันที่</h5>
+        <mat-form-field appearance="outline">
+          <mat-label>Choose a date</mat-label>
+          <input matInput [matDatepicker]="picker2">
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+      </section>
+
+    </div>
+
+    <div class="col-12">
+      
+      <section class="conx-receiptformsec">
+        <mat-card>
+
+          <h1>รายงานการขายสินค้าแบบละเอียด (สรุปตามสินค้า)</h1>
+
+          <div class="row" id="conx-receiptformrow">
+            
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>สาขา</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>ช่องทางการขาย</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>ประเภทลูกค้า</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>แผนกสินค้า</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>ประเภทสินค้า</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>กลุ่มสินค้า</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>บาร์โค๊ด</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>ชื่อสินค้า</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>ยี่ห้อ</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              <h5>สถานะ</h5>
+              <mat-form-field appearance="outline">
+                <mat-label> </mat-label>
+                <input matInput placeholder="Placeholder">
+              </mat-form-field>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-4 mb-2">
+              
+              <div class="row" id="conx-receiptbottombutt">
+
+                <div class="col-sm-6 col-6">
+                  <button mat-raised-button>ค้นหา</button>
+                </div>
+
+                <div class="col-sm-6 col-6">
+                  <button mat-raised-button>EXPORT EXCEL</button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-12">
+
+                <table class="table">
+                  <thead class="thead-light">
+                      <tr>
+                          <th scope="col">บาร์โค๊ด</th>
+                          <th scope="col">ชื่อสินค้า</th>
+                          <th scope="col">สาขา</th>
+                          <th scope="col">ยี่ห้อ</th>
+                          <th scope="col">ช่องทางการขาย</th>
+                          <th scope="col">วันที่ขาย</th>
+                          <th scope="col">เลขที่เอกสาร</th>
+                          <th scope="col">ประเภทลูกค้า</th>
+                          <th scope="col">ลูกค้า</th>
+                          <th scope="col">จำนวน</th>
+                          <th scope="col">ยอดขาย</th>
+                          <th scope="col">สถานะ</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                          <td>#</td>
+                      </tr>
+                  </tbody>
+                  <thead class="thead-light">
+                    <tr>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col"> </th>
+                        <th scope="col">รวมทั้งหมด</th>
+                        <th scope="col">0.00</th>
+                        <th scope="col">0.00</th>
+                    </tr>
+                </thead>
+                </table>
+              
+            </div>
+
+          </div>
+        
+        </mat-card>
+      </section>
+      
+    </div>
+
+  </div>
+</div>
