@@ -44,5 +44,18 @@ body {
 #conx-bestsidediv > a.app-menu-button {
     display: none !important;
 }
+.conx-datainfomaincolumnleft {
+    zoom: 75% !important;
+}
+.conx-datainfomaincolumnright {
+    zoom: 75% !important;
+}
+#DatainfoDiscountPopup {
+    zoom: 95%;
+    min-height: 600px;
+}
+#DatainfoDiscountPopup > mat-dialog-content {
+    min-height: 600px;
+}
 
 }
