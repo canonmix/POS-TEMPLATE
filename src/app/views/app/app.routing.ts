@@ -9,6 +9,7 @@ import { bestsellerProductComponent } from './datainfo/bestseller-product/templa
 import { bestsellerProductAddedComponent } from './datainfo/bestseller-product-added/template.component';
 import { salereportComponent } from './datainfo/salereport/template.component';
 import { posdataComponent } from './datainfo/pos/template.component';
+import { ConxoComponent } from './dashboards/conxo/conxo.component';
 
 // อิงจาก https://vien-docs.coloredstrategies.com/docs/codebase/routing ปรับ Router ของ Patch หลักที่นี่
 
@@ -48,6 +49,7 @@ const routes: Routes = [
       },
       { path: 'blank-page', component: BlankPageComponent },
       { path: 'blank-page2', component: BlankPageComponent2 },
+      { path: 'dashboards/conxo', component: ConxoComponent },
       { path: 'datainfo', component: datainfoComponent },
       { path: 'datainfo/bestseller', component: bestsellerComponent },
       { path: 'datainfo/bestseller/product', component: bestsellerProductComponent },

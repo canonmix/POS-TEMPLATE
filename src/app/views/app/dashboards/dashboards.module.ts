@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { AnalyticsComponent } from './analytics/analytics.component';
 import { ContentComponent } from './content/content.component';
 import { DefaultComponent } from './default/default.component';
-import { ConxoComponent } from './conxo/conxo.component';
 import { EcommerceComponent } from './ecommerce/ecommerce.component';
 import { DashboardsComponent } from './dashboards.component';
 import { DashboardsRoutingModule } from './dashboards.routing';
@@ -12,7 +11,7 @@ import { ComponentsCardsModule } from 'src/app/components/cards/components.cards
 import { LayoutContainersModule } from 'src/app/containers/layout/layout.containers.module';
 
 @NgModule({
-  declarations: [AnalyticsComponent, ContentComponent, DefaultComponent, ConxoComponent, EcommerceComponent, DashboardsComponent],
+  declarations: [AnalyticsComponent, ContentComponent, DefaultComponent, EcommerceComponent, DashboardsComponent],
   imports: [
     SharedModule,
     LayoutContainersModule,

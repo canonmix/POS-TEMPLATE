@@ -27,7 +27,7 @@ const data: IMenuItem[] = [
       {
         icon: 'iconsminds-bucket',
         label: 'menu.blank-page',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
     ],
@@ -40,7 +40,7 @@ const data: IMenuItem[] = [
       {
         icon: 'iconsminds-bucket',
         label: 'menu.blank-page',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
     ],
@@ -111,7 +111,7 @@ const data: IMenuItem[] = [
       {
         icon: 'iconsminds-bucket',
         label: 'menu.blank-page',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       }
     ],
@@ -123,27 +123,27 @@ const data: IMenuItem[] = [
     subs: [
       {
         label: 'menu.th-printdoc',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
       {
         label: 'menu.th-printdeliv',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
       {
         label: 'menu.th-printinv',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
       {
         label: 'menu.th-printtaxinv',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
       {
         label: 'menu.th-printreceipt',
-        to: `${adminRoot}/blank-page2`,
+        to: `${adminRoot}/datainfo`,
         // roles: [UserRole.Editor],
       },
     ],
@@ -539,7 +539,7 @@ const data: IMenuItem[] = [
       {
         icon: 'iconsminds-bucket',
         label: 'menu.blank-page',
-        to: `${adminRoot}/blank-page`,
+        to: `${adminRoot}/blank-page2`,
         // roles: [UserRole.Editor],
       },
     ],
@@ -547,7 +547,7 @@ const data: IMenuItem[] = [
   {
     icon: 'iconsminds-bucket',
     label: 'menu.blank-page',
-    to: `${adminRoot}/blank-page2`,
+    to: `${adminRoot}/blank-page`,
     // roles: [UserRole.Editor],
   },
   {
