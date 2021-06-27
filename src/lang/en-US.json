@@ -130,6 +130,7 @@
     "th-printinv": "ค้นหา/พิมพ์ใบแจ้งหนี้",
     "th-printtaxinv": "ค้นหา/พิมพ์ใบกำกับภาษี",
     "th-printreceipt": "ค้นหา/พิมพ์ใบเสร็จรับเงิน",
+    "th-companyinfo": "การจัดการข้อมูลองค์กร",
     "th-datainfo-basic-0": "ข้อมูลพื้นฐาน",
     "th-datainfo-pos-0": "POS",
     "th-datainfo-pos-1": "เปิดรอบการทำงาน",

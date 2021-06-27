@@ -146,6 +146,11 @@ const data: IMenuItem[] = [
         to: `${adminRoot}/issued/receipt`,
         // roles: [UserRole.Editor],
       },
+      {
+        label: 'menu.th-companyinfo',
+        to: `${adminRoot}/issued/companyinfo`,
+        // roles: [UserRole.Editor],
+      },
     ],
   },
   {
