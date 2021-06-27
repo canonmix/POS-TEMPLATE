@@ -1,0 +1,168 @@
+h5 {
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+  padding-bottom: 7px;
+}
+.conx-headbreadcrumbbackbutt {
+  font-size: 32px;
+  color: #fff;
+  background-color: #8f8f8f;
+  border-radius: 50%;
+  padding: 9px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.conx-headbreadcrumbbackbutt:hover {
+  background-color: #00a656 !important;
+}
+.conx-incardbestsellerprice {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  padding-left: 5px;
+  font-weight: 400;
+  color: #00a656 !important;
+  font-size: 16px;
+}
+.conx-companyinfotopbutt > button {
+  width: 100%;
+  padding: 7px;
+}
+.conx-companyinfotopbutt > button:hover {
+  background-color: #00a656 !important;
+  color: #fff !important;
+}
+.conx-companyinfodatepicker > mat-form-field {
+  width: 100%;
+}
+#conx-companyinfoformrow > div > mat-form-field {
+  width: 100%;
+}
+#conx-companyinfobottombutt {
+  padding-top: 35px;
+}
+#conx-companyinfobottombutt > div:nth-child(1) > button {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  color: #fff;
+  background-color: #8f8f8f;
+}
+#conx-companyinfobottombutt > div:nth-child(2) > button {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  color: #fff;
+  background-color: #00a656;
+}
+.conx-companyinfobottombutt > div > button:hover {
+  color: #ff0;
+  background-color: #8f8f8f;
+}
+.conx-companyinfotopinput > mat-form-field {
+  width: 100%;
+}
+#conx-companyinfosearchdiv > button {
+    background-color: #367c40 !important;
+    border: 1px solid #367c40;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 22px;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <g> <g> <path fill="white" d="M508.875,493.792L353.089,338.005c32.358-35.927,52.245-83.296,52.245-135.339C405.333,90.917,314.417,0,202.667,0 S0,90.917,0,202.667s90.917,202.667,202.667,202.667c52.043,0,99.411-19.887,135.339-52.245l155.786,155.786 c2.083,2.083,4.813,3.125,7.542,3.125c2.729,0,5.458-1.042,7.542-3.125C513.042,504.708,513.042,497.958,508.875,493.792z M202.667,384c-99.979,0-181.333-81.344-181.333-181.333S102.688,21.333,202.667,21.333S384,102.677,384,202.667 S302.646,384,202.667,384z"/> </g> </g> </svg>');
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 30% center;
+}
+#conx-companyinfosearchdiv > button:hover {
+  color: #ff0 !important;
+  border: 1px solid #8f8f8f;
+  background-color: #8f8f8f !important;
+}
+.conx-companyinfosearchicon {
+  text-align: center;
+  margin-top: -7px;
+}
+.conx-companyinfosearchicon > button {
+  box-shadow: none;
+  font-size: 0px;
+  padding: 5px;
+  width: 35px;
+  min-width: 35px;
+  height: 35px;
+  min-height: 35px;
+  background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <g> <g> <path fill="%233a3a3a" d="M508.875,493.792L353.089,338.005c32.358-35.927,52.245-83.296,52.245-135.339C405.333,90.917,314.417,0,202.667,0 S0,90.917,0,202.667s90.917,202.667,202.667,202.667c52.043,0,99.411-19.887,135.339-52.245l155.786,155.786 c2.083,2.083,4.813,3.125,7.542,3.125c2.729,0,5.458-1.042,7.542-3.125C513.042,504.708,513.042,497.958,508.875,493.792z M202.667,384c-99.979,0-181.333-81.344-181.333-181.333S102.688,21.333,202.667,21.333S384,102.677,384,202.667 S302.646,384,202.667,384z"/> </g> </g> </svg>');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.conx-companyinfosearchicon > button:hover {
+  color: #ff0 !important;
+  border: 1px solid #00a656;
+  background-color: #00a656 !important;
+}
+.conx-companyinfoissuethis > button {
+  background-color: #00a656 !important;
+  border: 1px solid #00a656;
+  color: #fff;
+  width: 60%;
+  padding: 0px;
+  font-size: 18px;
+  padding-left: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-image: url('data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-invoice" class="svg-inline--fa fa-file-invoice fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="white" d="M288 256H96v64h192v-64zm89-151L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 64c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8v-16zm256 304c0 4.42-3.58 8-8 8h-80c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16zm0-200v96c0 8.84-7.16 16-16 16H80c-8.84 0-16-7.16-16-16v-96c0-8.84 7.16-16 16-16h224c8.84 0 16 7.16 16 16z"></path></svg>');
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: 10% center;
+}
+.conx-companyinfoissuethis > button:hover {
+  color: #ff0 !important;
+  border: 1px solid #8f8f8f;
+  background-color: #8f8f8f !important;
+}
+#conx-companyinfoformrow > div > table > tbody > tr > td:nth-child(5) {
+  color: #00a656;
+}
+#conx-companyinfoformrow > div > table > tbody > tr > td:nth-child(6) {
+  text-align: center;
+}
+.conx-companyinfocustomicon1 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-right: 8px;
+  background-size: 28px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('data:image/svg+xml;utf8,<svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="%2300a656" d="m433.798 106.268-96.423-91.222c-10.256-9.703-23.68-15.046-37.798-15.046h-183.577c-30.327 0-55 24.673-55 55v402c0 30.327 24.673 55 55 55h280c30.327 0 55-24.673 55-55v-310.778c0-15.049-6.27-29.612-17.202-39.954zm-29.137 13.732h-74.661c-2.757 0-5-2.243-5-5v-70.364zm-8.661 362h-280c-13.785 0-25-11.215-25-25v-402c0-13.785 11.215-25 25-25h179v85c0 19.299 15.701 35 35 35h91v307c0 13.785-11.215 25-25 25z"/><path fill="%2300a656" d="m363 200h-220c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path fill="%2300a656" d="m363 280h-220c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/><path fill="%2300a656" d="m215.72 360h-72.72c-8.284 0-15 6.716-15 15s6.716 15 15 15h72.72c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/></svg>');
+}
+
+// DEMO mat-paginator
+#mat-paginator > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 8px;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  min-height: 56px;
+}
+#mat-paginator > div > div > div.mat-paginator-page-size {
+  display: flex;
+  align-items: baseline;
+  margin-right: 8px;
+}
+#mat-paginator > div > div > div.mat-paginator-range-actions {
+  display: flex;
+  align-items: center;
+}
+#mat-paginator > div > div > div.mat-paginator-page-size > mat-form-field > div {
+  max-height: 60px !important;
+}
