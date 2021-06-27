@@ -3,52 +3,43 @@
   
     <div class="col-8">
       
-      <h1><i class="glyph-icon iconsminds-book conx-h1topicon"></i> รายงานการขายสินค้าแบบละเอียด<span class="conx-headbreadcrumb"></span></h1>
+      <h1><i class="conx-receiptcustomicon1"></i> ค้นหาใบเสร็จรับเงิน<span class="conx-headbreadcrumb"></span></h1>
   
     </div>
   
     <div class="col-4 text-right">
     </div>
   
-    <div class="display-options-container col-12">
-  
-        <div class="separator mb-4"></div>
-  
-    </div>
+    <div class="col-sm-6 col-6 mb-2">
 
-    <div class="col-sm-6 col-md-3 col-3 mb-4">
-
-      <section class="conx-receipttopbutt">
-        <button mat-raised-button>วันนี้</button>
-      </section>
-
-    </div>
-
-    <div class="col-sm-6 col-md-3 col-3 mb-4">
-
-      <section class="conx-receipttopbutt">
-        <button mat-raised-button>เมื่อวานนี้</button>
-      </section>
-
-    </div>
-
-    <div class="col-sm-6 col-md-3 col-3 mb-4">
-
-      <section class="conx-receipttopbutt">
-        <button mat-raised-button>สัปดาห์นี้</button>
-      </section>
-
-    </div>
-
-    <div class="col-sm-6 col-md-3 col-3 mb-4">
-
-      <section class="conx-receipttopbutt">
-        <button mat-raised-button>เดือนนี้</button>
+      <section class="conx-receipttopinput">
+        
+            <h5>เลขที่ใบเสร็จรับเงิน</h5>
+            <mat-form-field appearance="outline">
+              <mat-label> </mat-label>
+              <input matInput placeholder="Placeholder">
+            </mat-form-field>
+        
       </section>
 
     </div>
 
     <div class="col-sm-6 col-6 mb-2">
+      
+      <section class="conx-receipttopinput">
+        
+          <h5>เบอร์โทรศัพท์</h5>
+          <mat-form-field appearance="outline">
+            <mat-label> </mat-label>
+            <input matInput placeholder="Placeholder">
+          </mat-form-field>
+
+      </section>
+
+    </div>
+
+
+    <div class="col-sm-12 col-md-3 col-3 mb-2">
 
       <section class="conx-receiptdatepicker">
         <h5>ตั้งแต่วันที่</h5>
@@ -62,7 +53,7 @@
 
     </div>
 
-    <div class="col-sm-6 col-6 mb-2">
+    <div class="col-sm-12 col-md-3 col-3 mb-2">
       
       <section class="conx-receiptdatepicker">
         <h5>ถึงวันที่</h5>
@@ -76,6 +67,25 @@
 
     </div>
 
+    <div class="col-sm-12 col-md-3 col-3 mb-2">
+
+    </div>
+
+    <div class="col-sm-12 col-md-3 col-3 mb-2">
+
+        <div id="conx-receiptsearchdiv">
+          <button mat-raised-button>ค้นหา</button>
+        </div>
+
+    </div>
+
+    <div class="display-options-container col-12">
+  
+      <div class="separator mb-4"></div>
+
+    </div>
+
+
     <div class="col-12">
       
       <section class="conx-receiptformsec">
@@ -84,159 +94,178 @@
           <h1>รายงานการขายสินค้าแบบละเอียด (สรุปตามสินค้า)</h1>
 
           <div class="row" id="conx-receiptformrow">
-            
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>สาขา</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>ช่องทางการขาย</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>ประเภทลูกค้า</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>แผนกสินค้า</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>ประเภทสินค้า</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>กลุ่มสินค้า</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>บาร์โค๊ด</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>ชื่อสินค้า</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>ยี่ห้อ</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              <h5>สถานะ</h5>
-              <mat-form-field appearance="outline">
-                <mat-label> </mat-label>
-                <input matInput placeholder="Placeholder">
-              </mat-form-field>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-4 mb-2">
-              
-              <div class="row" id="conx-receiptbottombutt">
-
-                <div class="col-sm-6 col-6">
-                  <button mat-raised-button>ค้นหา</button>
-                </div>
-
-                <div class="col-sm-6 col-6">
-                  <button mat-raised-button>EXPORT EXCEL</button>
-                </div>
-
-              </div>
-
-            </div>
 
             <div class="col-12">
 
                 <table class="table">
                   <thead class="thead-light">
                       <tr>
-                          <th scope="col">บาร์โค๊ด</th>
-                          <th scope="col">ชื่อสินค้า</th>
-                          <th scope="col">สาขา</th>
-                          <th scope="col">ยี่ห้อ</th>
-                          <th scope="col">ช่องทางการขาย</th>
-                          <th scope="col">วันที่ขาย</th>
-                          <th scope="col">เลขที่เอกสาร</th>
-                          <th scope="col">ประเภทลูกค้า</th>
-                          <th scope="col">ลูกค้า</th>
-                          <th scope="col">จำนวน</th>
-                          <th scope="col">ยอดขาย</th>
-                          <th scope="col">สถานะ</th>
+                          <th scope="col"> </th>
+                          <th scope="col">เลขที่ใบเสร็จรับเงิน</th>
+                          <th scope="col">วันที่</th>
+                          <th scope="col">ชื่อลูกค้า</th>
+                          <th scope="col">จำนวนเงิน</th>
+                          <th scope="col"> </th>
                       </tr>
                   </thead>
                   <tbody>
+
+                    <!-- START LOOP -->
+
                       <tr>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
-                          <td>#</td>
+                          <td>
+                            <div class="conx-receiptsearchicon">
+                              <button mat-raised-button>ค้นหา</button>
+                            </div>
+                          </td>
+                          <td>
+                            VRB2104000004
+                          </td>
+                          <td>
+                            09/04/2021
+                          </td>
+                          <td>
+                            เงินสด
+                          </td>
+                          <td>
+                            2,990.00
+                          </td>
+                          <td>
+                            <div class="conx-receiptissuethis">
+                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            </div>
+                          </td>
                       </tr>
-                  </tbody>
-                  <thead class="thead-light">
-                    <tr>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col"> </th>
-                        <th scope="col">รวมทั้งหมด</th>
-                        <th scope="col">0.00</th>
-                        <th scope="col">0.00</th>
+
+                      <!-- END LOOP -->
+
+                      <tr>
+                        <td>
+                          <div class="conx-receiptsearchicon">
+                            <button mat-raised-button>ค้นหา</button>
+                          </div>
+                        </td>
+                        <td>
+                          VRB2104000004
+                        </td>
+                        <td>
+                          09/04/2021
+                        </td>
+                        <td>
+                          เงินสด
+                        </td>
+                        <td>
+                          2,990.00
+                        </td>
+                        <td>
+                          <div class="conx-receiptissuethis">
+                            <button mat-raised-button>ออกใบกำกับภาษี</button>
+                          </div>
+                        </td>
                     </tr>
-                </thead>
+                    <tr>
+                          <td>
+                            <div class="conx-receiptsearchicon">
+                              <button mat-raised-button>ค้นหา</button>
+                            </div>
+                          </td>
+                          <td>
+                            VRB2104000004
+                          </td>
+                          <td>
+                            09/04/2021
+                          </td>
+                          <td>
+                            เงินสด
+                          </td>
+                          <td>
+                            2,990.00
+                          </td>
+                          <td>
+                            <div class="conx-receiptissuethis">
+                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <div class="conx-receiptsearchicon">
+                              <button mat-raised-button>ค้นหา</button>
+                            </div>
+                          </td>
+                          <td>
+                            VRB2104000004
+                          </td>
+                          <td>
+                            09/04/2021
+                          </td>
+                          <td>
+                            เงินสด
+                          </td>
+                          <td>
+                            2,990.00
+                          </td>
+                          <td>
+                            <div class="conx-receiptissuethis">
+                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <div class="conx-receiptsearchicon">
+                              <button mat-raised-button>ค้นหา</button>
+                            </div>
+                          </td>
+                          <td>
+                            VRB2104000004
+                          </td>
+                          <td>
+                            09/04/2021
+                          </td>
+                          <td>
+                            เงินสด
+                          </td>
+                          <td>
+                            2,990.00
+                          </td>
+                          <td>
+                            <div class="conx-receiptissuethis">
+                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            </div>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                            <div class="conx-receiptsearchicon">
+                              <button mat-raised-button>ค้นหา</button>
+                            </div>
+                          </td>
+                          <td>
+                            VRB2104000004
+                          </td>
+                          <td>
+                            09/04/2021
+                          </td>
+                          <td>
+                            เงินสด
+                          </td>
+                          <td>
+                            2,990.00
+                          </td>
+                          <td>
+                            <div class="conx-receiptissuethis">
+                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            </div>
+                          </td>
+                      </tr>
+
+                  </tbody>
                 </table>
+
+                <!-- DEMO mat-paginator -->
+                <!-- <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator> -->
+                <div role="group" id="mat-paginator" class="mat-paginator"><div class="mat-paginator-outer-container"><div class="mat-paginator-container"><div class="mat-paginator-page-size ng-star-inserted"><div class="mat-paginator-page-size-label"> Items per page: </div><mat-form-field class="mat-form-field mat-paginator-page-size-select mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-star-inserted mat-form-field-should-float"><div class="mat-form-field-wrapper"><div class="mat-form-field-flex"><!----><!----><div class="mat-form-field-infix"><mat-select role="combobox" aria-autocomplete="none" aria-haspopup="true" class="mat-select ng-star-inserted" id="mat-select-0" tabindex="0" aria-expanded="false" aria-label="Items per page:" aria-required="false" aria-disabled="false" aria-invalid="false"><div cdk-overlay-origin="" class="mat-select-trigger"><div class="mat-select-value" id="mat-select-value-1"><!----><span class="mat-select-value-text ng-star-inserted"><span class="mat-select-min-line ng-star-inserted">5</span><!----><!----></span><!----></div><div class="mat-select-arrow-wrapper"><div class="mat-select-arrow"></div></div></div><!----></mat-select><span class="mat-form-field-label-wrapper"><!----></span></div><!----></div> <!----><div class="mat-form-field-subscript-wrapper"><!----><div class="mat-form-field-hint-wrapper ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!----><div class="mat-form-field-hint-spacer"></div></div><!----></div></div></mat-form-field><!----><!----></div><!----><div class="mat-paginator-range-actions"><div class="mat-paginator-range-label"> 1 – 5 of 20 </div><button mat-icon-button="" type="button" class="mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-first mat-icon-button mat-button-base mat-button-disabled ng-star-inserted" aria-label="First page" disabled="true"><span class="mat-button-wrapper"><svg viewBox="0 0 24 24" focusable="false" class="mat-paginator-icon"><path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z"></path></svg></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button><!----><!----><button mat-icon-button="" type="button" class="mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-previous mat-icon-button mat-button-base mat-button-disabled" aria-label="Previous page" disabled="true"><span class="mat-button-wrapper"><svg viewBox="0 0 24 24" focusable="false" class="mat-paginator-icon"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button><!----><button mat-icon-button="" type="button" class="mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-next mat-icon-button mat-button-base" aria-label="Next page"><span class="mat-button-wrapper"><svg viewBox="0 0 24 24" focusable="false" class="mat-paginator-icon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button><!----><button mat-icon-button="" type="button" class="mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-last mat-icon-button mat-button-base ng-star-inserted" aria-label="Last page"><span class="mat-button-wrapper"><svg viewBox="0 0 24 24" focusable="false" class="mat-paginator-icon"><path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z"></path></svg></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button><!----><!----></div></div></div></div>
               
             </div>
 

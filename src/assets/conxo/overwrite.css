@@ -432,3 +432,20 @@ input.mat-input-element {
 #conx-postaxinvformin1 > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > span > label {
     padding-top: 7px !important;
 }
+
+
+/* receipt.component.scss */
+.conx-receipttopinput > mat-form-field > div > div.mat-form-field-flex > div:nth-child(1) {
+  background-color: #fff;
+}
+.conx-receiptdatepicker > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-outline {
+  background-color: #fff;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+.conx-receiptdatepicker > mat-form-field > div > div.mat-form-field-flex > div.mat-form-field-infix > span > label {
+    padding-top: 10px;
+}
+#mat-paginator > div > div > div.mat-paginator-page-size > mat-form-field > div {
+  max-height: 70px !important;
+}
