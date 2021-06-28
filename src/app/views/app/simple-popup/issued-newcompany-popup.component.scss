@@ -1,16 +1,16 @@
 /* IT INCLUDE BUT IT CANNOT OVERWRITTE with indigo-pink.css BECAUSE ORDER of STACK  */
 
-#PosTaxinvPopup > mat-dialog-content {
+#IssuedNewCompanyPopup > mat-dialog-content {
     height: 100% !important;
     overflow: visible !important;
 }
-.conx-postaxinvspacer {
+.conx-newcompanyspacer {
     margin-top: 3em;
 }
-.conx-postaxinvspacer2 {
+.conx-newcompanyspacer2 {
     margin-bottom: 2em;
 }
-.conx-postaxinvcustomicon {
+.conx-newcompanycustomicon {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -31,7 +31,7 @@
   color: #565656;
   margin-top: 10px;
 }
-#PosTaxinvPopupTopButt > button {
+#IssuedNewCompanyPopupTopButt > button {
     background-color: #0e77ed !important;
     border: 1px solid #0e77ed;
     color: #fff;
@@ -43,19 +43,19 @@
     margin: auto;
     box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
 }
-.conx-postaxinvformin > h5 {
+.conx-newcompanyformin > h5 {
     font-size: 16px;
     font-family:'Kanit', sans-serif;
     font-weight: 300;
 }
-.conx-postaxinvformin > mat-form-field {
+.conx-newcompanyformin > mat-form-field {
     width: 100%;
 }
-#PosTaxinvPopupButt {
+#IssuedNewCompanyPopupButt {
     margin-bottom: 2em;
     margin-top: 2em;
 }
-#PosTaxinvPopupButt > button:nth-child(1) {
+#IssuedNewCompanyPopupButt > button:nth-child(1) {
     background-color: #8f8f8f !important;
     border: 1px solid #8f8f8f;
     color: #fff;
@@ -67,7 +67,7 @@
     margin-right: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-#PosTaxinvPopupButt > button:nth-child(2) {
+#IssuedNewCompanyPopupButt > button:nth-child(2) {
     background-color: #00a656 !important;
     border: 1px solid #00a656;
     color: #fff;
@@ -84,7 +84,7 @@
     background-repeat: no-repeat;
     background-position: 1.5em center;
 }
-#PosTaxinvPopupButt > button:hover {
+#IssuedNewCompanyPopupButt > button:hover {
     background-color: #565656 !important;
     border: 1px solid #565656;
     color: #ff0 !important;
