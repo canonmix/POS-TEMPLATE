@@ -3,95 +3,17 @@
   
     <div class="col-8">
       
-      <h1><i class="conx-companyinfocustomicon1"></i> ค้นหาใบเสร็จรับเงิน<span class="conx-headbreadcrumb"></span></h1>
+      <h1><i class="conx-companyinfocustomicon1"></i> การจัดการข้อมูลองค์กร<span class="conx-headbreadcrumb"></span></h1>
   
     </div>
   
     <div class="col-4 text-right">
     </div>
-  
-    <div class="col-sm-6 col-6 mb-2">
-
-      <section class="conx-companyinfotopinput">
-        
-            <h5>เลขที่ใบเสร็จรับเงิน</h5>
-            <mat-form-field appearance="outline">
-              <mat-label> </mat-label>
-              <input matInput placeholder="Placeholder">
-            </mat-form-field>
-        
-      </section>
-
-    </div>
-
-    <div class="col-sm-6 col-6 mb-2">
-      
-      <section class="conx-companyinfotopinput">
-        
-          <h5>เบอร์โทรศัพท์</h5>
-          <mat-form-field appearance="outline">
-            <mat-label> </mat-label>
-            <input matInput placeholder="Placeholder">
-          </mat-form-field>
-
-      </section>
-
-    </div>
-
-
-    <div class="col-sm-12 col-md-3 col-3 mb-2">
-
-      <section class="conx-companyinfodatepicker">
-        <h5>ตั้งแต่วันที่</h5>
-        <mat-form-field appearance="outline">
-          <mat-label>Choose a date</mat-label>
-          <input matInput [matDatepicker]="picker">
-          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-          <mat-datepicker #picker></mat-datepicker>
-        </mat-form-field>
-    </section>
-
-    </div>
-
-    <div class="col-sm-12 col-md-3 col-3 mb-2">
-      
-      <section class="conx-companyinfodatepicker">
-        <h5>ถึงวันที่</h5>
-        <mat-form-field appearance="outline">
-          <mat-label>Choose a date</mat-label>
-          <input matInput [matDatepicker]="picker2">
-          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
-          <mat-datepicker #picker2></mat-datepicker>
-        </mat-form-field>
-      </section>
-
-    </div>
-
-    <div class="col-sm-12 col-md-3 col-3 mb-2">
-
-    </div>
-
-    <div class="col-sm-12 col-md-3 col-3 mb-2">
-
-        <div id="conx-companyinfosearchdiv">
-          <button mat-raised-button>ค้นหา</button>
-        </div>
-
-    </div>
-
-    <div class="display-options-container col-12">
-  
-      <div class="separator mb-4"></div>
-
-    </div>
-
 
     <div class="col-12">
       
       <section class="conx-companyinfoformsec">
         <mat-card>
-
-          <h1>รายงานการขายสินค้าแบบละเอียด (สรุปตามสินค้า)</h1>
 
           <div class="row" id="conx-companyinfoformrow">
 
@@ -100,11 +22,11 @@
                 <table class="table">
                   <thead class="thead-light">
                       <tr>
-                          <th scope="col"> </th>
-                          <th scope="col">เลขที่ใบเสร็จรับเงิน</th>
-                          <th scope="col">วันที่</th>
-                          <th scope="col">ชื่อลูกค้า</th>
-                          <th scope="col">จำนวนเงิน</th>
+                          <th scope="col">ประเภทหน่วยงาน</th>
+                          <th scope="col">รหัสหน่วยงาน</th>
+                          <th scope="col">ชื่อหน่วยงาน</th>
+                          <th scope="col">เลขประจำตัวผู้เสียภาษี</th>
+                          <th scope="col">เลขที่สาขา</th>
                           <th scope="col"> </th>
                       </tr>
                   </thead>
@@ -114,25 +36,25 @@
 
                       <tr>
                           <td>
-                            <div class="conx-companyinfosearchicon">
-                              <button mat-raised-button>ค้นหา</button>
-                            </div>
+                            บริษัทฯ
                           </td>
                           <td>
-                            VRB2104000004
+                            001
                           </td>
                           <td>
-                            09/04/2021
+                            บริษัท ไอ.อี-โซลูชั่นส์ จำกัด
                           </td>
                           <td>
-                            เงินสด
+                            0125543003454
                           </td>
                           <td>
-                            2,990.00
+                            สำนักงานใหญ่
                           </td>
                           <td>
-                            <div class="conx-companyinfoissuethis">
-                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            <div class="conx-companyinfoiconcolumn">
+                              <button mat-raised-button>Edit</button>
+                              <button mat-raised-button>Delete</button>
+                              <button mat-raised-button>Add</button>
                             </div>
                           </td>
                       </tr>
@@ -141,121 +63,75 @@
 
                       <tr>
                         <td>
-                          <div class="conx-companyinfosearchicon">
-                            <button mat-raised-button>ค้นหา</button>
-                          </div>
+                          บริษัทในเครือ
                         </td>
                         <td>
-                          VRB2104000004
+                          002
                         </td>
                         <td>
-                          09/04/2021
+                          บริษัท ไอคอนเอ็กซ์ โซลูชั่นส์ จำกัด 
                         </td>
                         <td>
-                          เงินสด
+                          0125555003012
                         </td>
                         <td>
-                          2,990.00
+                          สำนักงานใหญ่
                         </td>
                         <td>
-                          <div class="conx-companyinfoissuethis">
-                            <button mat-raised-button>ออกใบกำกับภาษี</button>
+                          <div class="conx-companyinfoiconcolumn">
+                            <button mat-raised-button>Edit</button>
+                            <button mat-raised-button>Delete</button>
+                            <button mat-raised-button>Add</button>
                           </div>
                         </td>
                     </tr>
+
                     <tr>
                           <td>
-                            <div class="conx-companyinfosearchicon">
-                              <button mat-raised-button>ค้นหา</button>
-                            </div>
+                            บริษัทในเครือ
                           </td>
                           <td>
-                            VRB2104000004
+                            003
                           </td>
                           <td>
-                            09/04/2021
+                            บริษัท วี.วินพลัสจำกัด จำกัด
                           </td>
                           <td>
-                            เงินสด
+                            0105549072130
                           </td>
                           <td>
-                            2,990.00
+                            สำนักงานใหญ่
                           </td>
                           <td>
-                            <div class="conx-companyinfoissuethis">
-                              <button mat-raised-button>ออกใบกำกับภาษี</button>
-                            </div>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                            <div class="conx-companyinfosearchicon">
-                              <button mat-raised-button>ค้นหา</button>
-                            </div>
-                          </td>
-                          <td>
-                            VRB2104000004
-                          </td>
-                          <td>
-                            09/04/2021
-                          </td>
-                          <td>
-                            เงินสด
-                          </td>
-                          <td>
-                            2,990.00
-                          </td>
-                          <td>
-                            <div class="conx-companyinfoissuethis">
-                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            <div class="conx-companyinfoiconcolumn">
+                              <button mat-raised-button>Edit</button>
+                              <button mat-raised-button>Delete</button>
+                              <button mat-raised-button>Add</button>
                             </div>
                           </td>
                       </tr>
+
                       <tr>
                           <td>
-                            <div class="conx-companyinfosearchicon">
-                              <button mat-raised-button>ค้นหา</button>
-                            </div>
+                            สาขา
                           </td>
                           <td>
-                            VRB2104000004
+                            003-1
                           </td>
                           <td>
-                            09/04/2021
+                            ESY HEALTHY
                           </td>
                           <td>
-                            เงินสด
+                            0105549072130
                           </td>
                           <td>
-                            2,990.00
+                            001
                           </td>
                           <td>
-                            <div class="conx-companyinfoissuethis">
-                              <button mat-raised-button>ออกใบกำกับภาษี</button>
-                            </div>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                            <div class="conx-companyinfosearchicon">
-                              <button mat-raised-button>ค้นหา</button>
-                            </div>
-                          </td>
-                          <td>
-                            VRB2104000004
-                          </td>
-                          <td>
-                            09/04/2021
-                          </td>
-                          <td>
-                            เงินสด
-                          </td>
-                          <td>
-                            2,990.00
-                          </td>
-                          <td>
-                            <div class="conx-companyinfoissuethis">
-                              <button mat-raised-button>ออกใบกำกับภาษี</button>
+                            <div class="conx-companyinfoiconcolumn">
+                              <button mat-raised-button>Edit</button>
+                              <button mat-raised-button>Delete</button>
+                              <button mat-raised-button>Add</button>
                             </div>
                           </td>
                       </tr>
