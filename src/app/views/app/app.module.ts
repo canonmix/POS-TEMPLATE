@@ -26,6 +26,7 @@ import { DatainfoChooseDiscountPopupComponent } from './simple-popup/datainfo-ch
 import { ConxoComponent } from './dashboards/conxo/conxo.component';
 import { ReceiptComponent } from './issued/receipt/template.component';
 import { CompanyInfoComponent } from './issued/companyinfo/template.component';
+import { IssuedNewCompanyPopupComponent } from './simple-popup/issued-newcompany-popup.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { CompanyInfoComponent } from './issued/companyinfo/template.component';
     ConxoComponent,
     ReceiptComponent,
     CompanyInfoComponent,
+    IssuedNewCompanyPopupComponent,
   ],
   imports: [
     CommonModule,
@@ -78,6 +80,7 @@ import { CompanyInfoComponent } from './issued/companyinfo/template.component';
     ConxoComponent,
     ReceiptComponent,
     CompanyInfoComponent,
+    IssuedNewCompanyPopupComponent,
   ],
 })
 export class AppModule {}
