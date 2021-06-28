@@ -57,5 +57,21 @@ body {
 #DatainfoDiscountPopup > mat-dialog-content {
     min-height: 600px;
 }
+#conx-companyinfoformrow {
+    zoom: 80%;
+}
+.conx-companyinfotopbutt {
+    zoom: 70%;
+}
+#conx-salereportbottombutt > div:nth-child(1) > button {
+    zoom: 80%;
+}
+#conx-salereportbottombutt > div:nth-child(2) > button {
+    zoom: 80%;
+}
+.conx-receiptissuethis > button {
+    zoom: 70%;
+    width: 80% !important;
+}
 
 }
