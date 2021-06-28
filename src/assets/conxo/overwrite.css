@@ -449,3 +449,17 @@ input.mat-input-element {
 #mat-paginator > div > div > div.mat-paginator-page-size > mat-form-field > div {
   max-height: 70px !important;
 }
+
+
+/* issued-newcompany-popup.component.scss */
+.conx-IssuedNewCompanyPopup {
+    display: block !important;
+    height: 100% !important;
+    right: 0px !important;
+    position: absolute !important;
+    width: 550px !important;
+}
+.conx-IssuedNewCompanyPopup > mat-dialog-container {
+    border-radius: 0px !important;
+}
+

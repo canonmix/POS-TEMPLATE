@@ -3,6 +3,7 @@ import {MatPaginator} from '@angular/material/paginator';
 import {MatTableDataSource} from '@angular/material/table';
 import { FormGroup, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { IssuedNewCompanyPopupComponent } from '../../simple-popup/issued-newcompany-popup.component';
 
 @Component({
   selector: 'app-blank-page',
@@ -45,6 +46,16 @@ export class CompanyInfoComponent  {
     this.campaignTwo = new FormGroup({
       start: new FormControl(new Date(year, month, 15)),
       end: new FormControl(new Date(year, month, 19)),
+    });
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(IssuedNewCompanyPopupComponent, {
+      panelClass: 'conx-IssuedNewCompanyPopup',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
     });
   }
 
