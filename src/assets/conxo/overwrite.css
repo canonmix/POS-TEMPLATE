@@ -11,6 +11,18 @@ input, button, select, optgroup, textarea {
 }  
 
 /* _vien.style.scss */
+.navbar-logo {
+    background-image: url(/assets/conxo/images/logo_sml.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo {
+    background: none !important;
+}
+.logo-mobile {
+    background: none !important;
+}
 body {
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
