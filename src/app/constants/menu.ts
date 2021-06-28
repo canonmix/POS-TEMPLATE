@@ -15,12 +15,12 @@ export interface IMenuItem {
 
 const data: IMenuItem[] = [
   {
-    icon: 'iconsminds-library',
+    icon: 'simple-icon-home',
     label: 'menu.dashboards',
     to: `${adminRoot}/dashboards/conxo`,
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'simple-icon-bag',
     label: 'menu.th-aboutcustomer',
     to: `${adminRoot}/menu2`,
     subs: [
@@ -33,7 +33,7 @@ const data: IMenuItem[] = [
     ],
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'simple-icon-grid',
     label: 'menu.th-management',
     to: `${adminRoot}/menu3`,
     subs: [
@@ -46,7 +46,7 @@ const data: IMenuItem[] = [
     ],
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'iconsminds-project',
     label: 'menu.th-data',
     to: `${adminRoot}/datainfo`,
     subs: [
@@ -104,7 +104,7 @@ const data: IMenuItem[] = [
     ],
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'simple-icon-people',
     label: 'menu.th-aboutuser',
     to: `${adminRoot}/menu5`,
     subs: [
@@ -117,7 +117,7 @@ const data: IMenuItem[] = [
     ],
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'iconsminds-receipt-4',
     label: 'menu.th-invoice',
     to: `${adminRoot}/menu6`,
     subs: [
@@ -154,7 +154,7 @@ const data: IMenuItem[] = [
     ],
   },
   {
-    icon: 'iconsminds-library',
+    icon: 'simple-icon-power',
     label: 'menu.th-logout',
     to: '#',
     newWindow: true,
