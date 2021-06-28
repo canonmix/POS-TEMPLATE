@@ -112,6 +112,11 @@ input.mat-input-element {
     width: 100%;
     min-width: 390px;
 }
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #6a6a6a;
+    border: 1px solid #6a6a6a;
+    border-radius: 5px;
+}
 #BestsellerAddnewPopup > mat-dialog-content > mat-card > mat-card-content > section > mat-radio-group > mat-radio-button.mat-radio-button.example-margin.mat-accent.mat-radio-checked > label > div.mat-radio-container > div.mat-radio-outer-circle {
     border-color: #00a656 !important;
 }
@@ -134,15 +139,6 @@ input.mat-input-element {
             margin-bottom: 0px;
             font-size: 22px;
         }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
-            border: 2px #757575 solid;
-            padding: 10px;
-            border-radius: 7px;
-            font-size: 22px;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(2) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
-            display: none;
-        }
         /* ------------------ */
 
         /* ADD PRODUCT TAB CSS */
@@ -157,39 +153,18 @@ input.mat-input-element {
             margin-bottom: 0px;
             font-size: 22px;
         }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
-            border: 2px #757575 solid;
-            padding: 10px;
-            border-radius: 7px;
-            font-size: 22px;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span {
-            display: none;
-        }
         #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table {
             width: 100%;
         }
         #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field {
             width: 100%;
         }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-flex > div > input {
-            border: 2px #757575 solid;
-            padding: 10px;
-            border-radius: 7px;
-            font-size: 22px;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-flex > div > span > label {
-            display: none;
-        }
-        #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(1) > mat-form-field > div > div.mat-form-field-underline {
-            height: 0px;
-        }
         #BestsellerAddnewPopup > mat-dialog-content > mat-card:nth-child(3) > mat-card-content > table > tr > td:nth-child(2) > button {
             background-color: #00a656 !important;
             color: #fff;
             width: 100%;
             padding: 5px;
-            margin-top: -10px;
+            margin-top: -20px;
             margin-left: 10px;
             margin-right: 10px;
             font-size: 16px;
@@ -277,15 +252,6 @@ input.mat-input-element {
 }
 #BestsellerEditPopup > mat-dialog-content > mat-card > mat-card-content > mat-form-field {
     width: 100%;
-}
-#BestsellerEditPopup > mat-dialog-content > mat-card > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > input {
-    border: 2px #757575 solid;
-    padding: 10px;
-    border-radius: 7px;
-    font-size: 22px;
-}
-#BestsellerEditPopup > mat-dialog-content > mat-card > mat-card-content > mat-form-field > div > div.mat-form-field-flex > div > span > label {
-    display: none;
 }
 #BestsellerEditPopup > mat-dialog-content > mat-card > mat-card-content > mat-form-field > div > div.mat-form-field-underline {
     height: 0px;
